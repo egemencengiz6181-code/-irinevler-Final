@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Link, usePathname } from "@/navigation"
-import { LucideIcon, ChevronDown, Search, Target, Share2, Code, Globe, Camera, Palette, Megaphone, Menu, X } from "lucide-react"
+import { LucideIcon, ChevronDown, GraduationCap, BookOpen, Users, FileText, Menu, X, Trophy } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useTranslations } from 'next-intl'
 import LanguageSwitcher from "./LanguageSwitcher"
@@ -44,22 +44,23 @@ export default function Navbar() {
   }
 
   const navItems: NavItem[] = [
-    { name: t('home'), url: "/", icon: Globe },
-    { name: t('about'), url: "/about", icon: Globe },
+    { name: t('home'), url: "/", icon: BookOpen },
+    { name: t('about'), url: "/about", icon: BookOpen },
     { name: t('services'), url: "/services", icon: ChevronDown, hasMegaMenu: true },
-    { name: t('references'), url: "/references", icon: Globe },
-    { name: t('contact'), url: "/contact", icon: Globe },
+    { name: t('guidance'), url: "/rehberlik", icon: Users },
+    { name: t('references'), url: "/references", icon: BookOpen },
+    { name: t('contact'), url: "/contact", icon: BookOpen },
   ]
 
   const services: ServiceItem[] = [
-    { title: st('items.seo.title'), description: st('items.seo.description'), href: "/services/seo", icon: Search },
-    { title: st('items.google-ads.title'), description: st('items.google-ads.description'), href: "/services/google-ads", icon: Target },
-    { title: st('items.meta-ads.title'), description: st('items.meta-ads.description'), href: "/services/meta-ads", icon: Share2 },
-    { title: st('items.web-design.title'), description: st('items.web-design.description'), href: "/services/web-design", icon: Code },
-    { title: st('items.social-media.title'), description: st('items.social-media.description'), href: "/services/social-media", icon: Globe },
-    { title: st('items.production.title'), description: st('items.production.description'), href: "/services/production", icon: Camera },
-    { title: st('items.design.title'), description: st('items.design.description'), href: "/services/design", icon: Palette },
-    { title: st('items.pr.title'), description: st('items.pr.description'), href: "/services/pr", icon: Megaphone },
+      { title: st('items.7-sinif.title'), description: st('items.7-sinif.description'), href: "/services/7-sinif", icon: BookOpen },
+    { title: st('items.8-sinif.title'), description: st('items.8-sinif.description'), href: "/services/8-sinif", icon: BookOpen },
+    { title: st('items.10-sinif.title'), description: st('items.10-sinif.description'), href: "/services/10-sinif", icon: GraduationCap },
+    { title: st('items.11-sinif.title'), description: st('items.11-sinif.description'), href: "/services/11-sinif", icon: GraduationCap },
+    { title: st('items.12-sinif.title'), description: st('items.12-sinif.description'), href: "/services/12-sinif", icon: GraduationCap },
+    { title: st('items.mezun.title'), description: st('items.mezun.description'), href: "/services/mezun", icon: Trophy },
+    { title: st('items.acik-lise.title'), description: st('items.acik-lise.description'), href: "/services/acik-lise", icon: FileText },
+    { title: st('items.deneme-kulubu.title'), description: st('items.deneme-kulubu.description'), href: "/services/deneme-kulubu", icon: FileText },
   ]
 
   useEffect(() => {
@@ -100,8 +101,8 @@ export default function Navbar() {
       <div className="pointer-events-auto w-[200px] md:w-[260px] flex items-center">
         <Link href="/" className="flex items-center">
           <Image 
-            src="/logos/Main_Logo_Beyaz.png" 
-            alt="Renee DesignLab" 
+                      src="/logos/Fen%20bilimleri%20logo.png" 
+            alt="Zekeriyaköy Fen Bilimleri Dershanesi" 
             width={240} 
             height={72} 
             className="h-[64px] md:h-[80px] w-auto object-contain"
@@ -159,7 +160,6 @@ export default function Navbar() {
             )
           })}
           <div className="pr-4 border-l border-white/10 ml-2 pl-4 flex items-center h-8">
-              <LanguageSwitcher />
           </div>
         </div>
 
@@ -237,8 +237,8 @@ export default function Navbar() {
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
             <Link href="/" onClick={() => setIsMobileOpen(false)}>
               <Image
-                src="/logos/Main_Logo_Beyaz.png"
-                alt="Renee DesignLab"
+                src="/logos/Fen%20bilimleri%20logo.png"
+                alt="Zekeriyaköy Fen Bilimleri Dershanesi"
                 width={200}
                 height={60}
                 className="h-[56px] w-auto object-contain"
@@ -319,10 +319,6 @@ export default function Navbar() {
 
           {/* Alt bar - dil + analiz butonu */}
           <div className="px-6 py-6 border-t border-white/10 flex flex-col gap-4">
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-white/40">Dil</span>
-              <LanguageSwitcher />
-            </div>
             <AnalysisModal />
           </div>
         </motion.div>

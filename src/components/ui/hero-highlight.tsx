@@ -18,7 +18,7 @@ export function Highlight({ children, className }: HighlightProps) {
         whileInView={{ scaleX: 1 }}
         viewport={{ once: true, amount: 0.8 }}
         transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1], delay: 0.25 }}
-        className="absolute inset-0 -z-10 rounded-sm bg-gradient-to-r from-violet-600/30 to-purple-500/20"
+        className="absolute inset-0 -z-10 rounded-sm bg-gradient-to-r from-[#ec2027]/30 to-[#12648f]/20"
         style={{ bottom: "-2px", top: "2px" }}
       />
       <motion.span
@@ -26,9 +26,9 @@ export function Highlight({ children, className }: HighlightProps) {
         whileInView={{ scaleX: 1 }}
         viewport={{ once: true, amount: 0.8 }}
         transition={{ duration: 0.4, ease: "easeOut", delay: 0.3 }}
-        className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-violet-500 via-purple-400 to-violet-500 rounded-full"
+        className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#ec2027] via-[#f06060] to-[#ec2027] rounded-full"
       />
-      <span className="relative text-violet-300">{children}</span>
+      <span className="relative text-[#f06060]">{children}</span>
     </span>
   );
 }

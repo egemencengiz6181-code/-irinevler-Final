@@ -45,7 +45,8 @@ export default function Waves({
   const containerRef = useRef<HTMLDivElement>(null);
   const mouse = useRef({ x: -999, y: -999 });
   const lines = useRef<Point[][]>([]);
-  const noise3D = createNoise3D();
+  // useRef ile sabit referans - her render'da yeniden oluşturulmasın
+  const noise3D = useRef(createNoise3D()).current;
   const animRef = useRef<number>(0);
   const timeRef = useRef(0);
 
@@ -102,7 +103,8 @@ export default function Waves({
         })
       );
     },
-    [noise3D, waveSpeedX, waveSpeedY, waveAmpX, waveAmpY, friction, tension, maxCursorMove]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [waveSpeedX, waveSpeedY, waveAmpX, waveAmpY, friction, tension, maxCursorMove]
   );
 
   const drawLines = useCallback(

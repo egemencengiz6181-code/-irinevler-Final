@@ -149,7 +149,7 @@ export default function Hero({locale}: HeroProps) {
           transition={{duration: 0.6, delay: 0.1}}
         >
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-          Renee DesignLab
+          Zekeriyaköy Fen Bilimleri
         </motion.div>
 
         {/* Animated headline */}

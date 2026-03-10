@@ -5,8 +5,7 @@ import { motion } from 'framer-motion';
 import { useRouter } from '@/navigation';
 import { cn } from '@/lib/utils';
 import { 
-  Search, Target, Share2, Code, Globe, 
-  Camera, Palette, Megaphone 
+  BookOpen, GraduationCap, Trophy, FileText, Users, Star, BookMarked, BarChart2 
 } from 'lucide-react';
 
 interface BadgeProps {
@@ -22,77 +21,77 @@ interface BadgeProps {
 
 const badges: BadgeProps[] = [
   { 
-    id: 'seo', 
-    label: 'SEO', 
-    icon: <Search className="w-4 h-4" />,
+    id: '7-sinif', 
+    label: '7. Sınıf', 
+    icon: <BookOpen className="w-4 h-4" />,
     rotation: -12,
     x: -280,
     y: -80,
-    color: "from-purple-600 to-indigo-700"
+    color: "from-[#ec2027] to-[#c9191e]"
   },
   { 
-    id: 'google-ads', 
-    label: 'Google ADS', 
-    icon: <Target className="w-4 h-4" />,
+    id: '8-sinif', 
+    label: '8. Sınıf & LGS', 
+    icon: <GraduationCap className="w-4 h-4" />,
     rotation: 8,
     x: -120,
     y: -140,
-    color: "from-zinc-800 to-zinc-900"
+    color: "from-[#12648f] to-[#0e4e6f]"
   },
   { 
-    id: 'meta-ads', 
-    label: 'Meta Reklam', 
-    icon: <Share2 className="w-4 h-4" />,
+    id: '10-sinif', 
+    label: '10. Sınıf', 
+    icon: <BookMarked className="w-4 h-4" />,
     rotation: -5,
     x: 150,
     y: -120,
-    color: "from-purple-400 to-purple-600"
+    color: "from-[#ec2027] to-[#12648f]"
   },
   { 
-    id: 'web-design', 
-    label: 'Web Tasarım', 
-    icon: <Code className="w-4 h-4" />,
+    id: '11-sinif', 
+    label: '11. Sınıf', 
+    icon: <FileText className="w-4 h-4" />,
     rotation: 10,
     x: 260,
     y: -30,
-    color: "from-zinc-900 to-black"
+    color: "from-zinc-800 to-zinc-900"
   },
   { 
-    id: 'social-media', 
-    label: 'Sosyal Medya', 
-    icon: <Globe className="w-4 h-4" />,
+    id: '12-sinif', 
+    label: '12. Sınıf & YKS', 
+    icon: <Trophy className="w-4 h-4" />,
     rotation: 6,
     x: -220,
     y: 60,
-    color: "from-indigo-600 to-purple-800"
+    color: "from-[#12648f] to-[#ec2027]"
   },
   { 
-    id: 'production', 
-    label: 'Prodüksiyon', 
-    icon: <Camera className="w-4 h-4" />,
+    id: 'mezun', 
+    label: 'Mezun & YKS', 
+    icon: <GraduationCap className="w-4 h-4" />,
     rotation: -3,
     x: 0,
     y: 110,
     color: "from-zinc-700 to-zinc-900"
   },
   { 
-    id: 'design', 
-    label: 'Marka Kimliği', 
-    icon: <Palette className="w-4 h-4" />,
+    id: 'deneme-kulubu', 
+    label: 'Deneme Kulübü', 
+    icon: <BarChart2 className="w-4 h-4" />,
     rotation: -8,
     x: 180,
     y: 90,
-    color: "from-purple-800 to-indigo-900"
+    color: "from-[#ec2027] to-[#c9191e]"
   },
   { 
-    id: 'pr', 
-    label: 'PR Stratejisi', 
-    icon: <Megaphone className="w-4 h-4" />,
+    id: 'rehberlik', 
+    label: 'Rehberlik', 
+    icon: <Users className="w-4 h-4" />,
     rotation: 0,
     x: -40,
     y: -20,
     zIndex: 50,
-    color: "from-zinc-800 to-zinc-950"
+    color: "from-[#12648f] to-[#0e4e6f]"
   }
 ];
 
@@ -101,7 +100,11 @@ export default function MarketingBadges() {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   const handleClick = (id: string) => {
-    router.push(`/services/${id}`);
+    if (id === 'rehberlik') {
+      router.push('/rehberlik' as any);
+    } else {
+      router.push(`/services/${id}`);
+    }
   };
 
   return (

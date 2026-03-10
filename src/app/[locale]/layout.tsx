@@ -3,7 +3,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, getTranslations} from 'next-intl/server';
 import Navbar from '@/components/shared/Navbar';
 import Footer from '@/components/shared/Footer';
-import {locales} from '@/navigation';
+import {locales} from '@/config/locales';
 import Image from 'next/image';
 import '../globals.css';
 
@@ -19,24 +19,18 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Index' });
 
-  const origin = 'https://www.reneedesignlab.com';
-  const alternateLocale = locale === 'tr' ? 'en' : 'tr';
+  const origin = 'https://www.zekeriyakoyfenbilimleri.com';
 
   return {
     title: t('title'),
     description: t('description'),
     alternates: {
       canonical: `${origin}/${locale}`,
-      languages: {
-        tr: `${origin}/tr`,
-        en: `${origin}/en`,
-      },
     },
     openGraph: {
       type: 'website',
-      locale: locale === 'en' ? 'en_US' : 'tr_TR',
-      alternateLocale: alternateLocale === 'en' ? 'en_US' : 'tr_TR',
-      siteName: 'Renee DesignLab',
+      locale: 'tr_TR',
+      siteName: 'Zekeriyaköy Fen Bilimleri',
       title: t('title'),
       description: t('description'),
       url: `${origin}/${locale}`,
@@ -65,7 +59,7 @@ export default async function LocaleLayout({
         {/* Arka Plan İkonu (Global Mühür) */}
         <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.08] rotate-12 pointer-events-none z-0">
           <Image 
-            src="/logos/Main_Simge_Beyaz.png" 
+                      src="/logos/Fen%20bilimleri%20logo.png" 
             alt="" 
             fill 
             className="object-contain"

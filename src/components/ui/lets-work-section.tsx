@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { MessageCircle, Mail, Send, Loader2, CheckCircle2, ChevronDown } from 'lucide-react';
@@ -33,10 +34,22 @@ export default function LetsWorkSection() {
     }
   };
 
-  const inputCls = "w-full bg-white/5 border border-white/10 hover:border-violet-500/40 focus:border-violet-500 rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all";
+  const inputCls = "w-full bg-white/5 border border-white/10 hover:border-[#ec2027]/40 focus:border-[#ec2027] rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all";
 
   return (
     <section className="py-32 relative overflow-hidden bg-transparent">
+      {/* Okul arka plan görseli */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/okul/okul.jpeg"
+          alt="Zekeriyaköy Fen Bilimleri"
+          fill
+          className="object-cover opacity-[0.12] mix-blend-luminosity"
+          priority={false}
+        />
+        {/* Üstten ve alttan kararan gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0514] via-transparent to-[#0a0514]" />
+      </div>
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center">
           {/* Badge */}
@@ -61,7 +74,7 @@ export default function LetsWorkSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight mb-8 bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent"
+            className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight mb-8 bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent"
           >
             {t('title')}
           </motion.h2>
@@ -86,7 +99,7 @@ export default function LetsWorkSection() {
           >
             <button
               onClick={() => setShowForm(!showForm)}
-              className="group relative inline-flex items-center gap-3 px-10 py-5 rounded-full bg-primary text-white font-medium transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(109,40,217,0.3)] hover:shadow-[0_0_30px_rgba(109,40,217,0.5)]"
+              className="group relative inline-flex items-center gap-3 px-10 py-5 rounded-full bg-[#ec2027] text-white font-medium transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(236,32,39,0.3)] hover:shadow-[0_0_30px_rgba(236,32,39,0.5)]"
             >
               <MessageCircle className="w-5 h-5" />
               <span>{t('cta')}</span>
@@ -94,13 +107,13 @@ export default function LetsWorkSection() {
             </button>
 
             <a
-              href="mailto:info@reneedesignlab.com"
-              className="flex items-center gap-3 text-foreground/60 hover:text-white transition-colors group"
+              href="mailto:zekeriyakoyfenbilimleri@gmail.com"
+              className="flex items-center gap-3 text-foreground/60 hover:text-white transition-colors group min-w-0"
             >
-              <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-primary/50 group-hover:bg-primary/5 transition-all">
+              <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-primary/50 group-hover:bg-primary/5 transition-all shrink-0">
                 <Mail className="w-5 h-5" />
               </div>
-              <span className="font-light">info@reneedesignlab.com</span>
+              <span className="font-light text-sm sm:text-base truncate">zekeriyakoyfenbilimleri@gmail.com</span>
             </a>
           </motion.div>
 
@@ -114,11 +127,11 @@ export default function LetsWorkSection() {
                 transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 className="w-full max-w-xl overflow-hidden"
               >
-                <div className="bg-[#0a0514] border border-violet-500/20 rounded-3xl p-8 shadow-[0_0_60px_rgba(124,58,237,0.15)] text-left">
+                <div className="bg-[#0a0514] border border-[#ec2027]/20 rounded-3xl p-8 shadow-[0_0_60px_rgba(236,32,39,0.15)] text-left">
                   {sent ? (
                     <div className="flex flex-col items-center py-8 gap-4 text-center">
-                      <div className="w-16 h-16 rounded-full bg-violet-500/20 border border-violet-500/30 flex items-center justify-center">
-                        <CheckCircle2 className="w-8 h-8 text-violet-400" />
+                      <div className="w-16 h-16 rounded-full bg-[#ec2027]/20 border border-[#ec2027]/30 flex items-center justify-center">
+                        <CheckCircle2 className="w-8 h-8 text-[#ec2027]" />
                       </div>
                       <h3 className="text-xl font-bold text-white">{ct('form.success_title')}</h3>
                       <p className="text-sm text-white/40">{ct('form.success_text')}</p>
@@ -134,7 +147,7 @@ export default function LetsWorkSection() {
                       <button
                         type="submit"
                         disabled={loading}
-                        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-violet-600 hover:bg-violet-500 disabled:opacity-40 text-white font-semibold text-sm transition-all hover:scale-[1.02] active:scale-95"
+                        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#ec2027] hover:bg-[#c8191f] disabled:opacity-40 text-white font-semibold text-sm transition-all hover:scale-[1.02] active:scale-95"
                       >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                         {loading ? ct('form.sending') : ct('form.send')}
@@ -149,7 +162,7 @@ export default function LetsWorkSection() {
       </div>
 
       {/* Background Ambience */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 blur-[120px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 blur-[120px] rounded-full pointer-events-none z-[1]" />
     </section>
   );
 }

@@ -35,11 +35,11 @@ export default function WorkMarquee() {
       {/* Header badge */}
       <div className="max-w-7xl mx-auto px-6 mb-10">
         <div className="flex items-center gap-4">
-          <div className="h-px flex-1 bg-gradient-to-r from-transparent to-violet-500/30" />
-          <span className="text-xs font-bold uppercase tracking-[0.3em] text-violet-400">
+          <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#ec2027]/30" />
+          <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#ec2027]">
               {t("section_label")}
             </span>
-          <div className="h-px flex-1 bg-gradient-to-l from-transparent to-violet-500/30" />
+          <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#ec2027]/30" />
         </div>
       </div>
 

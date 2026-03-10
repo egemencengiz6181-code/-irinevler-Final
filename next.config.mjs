@@ -38,7 +38,7 @@ const nextConfig = {
         ],
       },
       {
-        source: '/(_next/static|logos|works)(.*)',
+        source: '/(_next/static|logos|works|okul|okul2)(.*)',
         headers: [
           {
             key: 'Cache-Control',

@@ -33,11 +33,10 @@ export default function AboutPage() {
       {/* Soluk Arka Plan Mührü */}
       <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.05] rotate-12 pointer-events-none z-0">
         <Image 
-          src="/logos/Main_Simge_Beyaz.png" 
+          src="/logos/Fen%20bilimleri%20logo.png" 
           alt="" 
           fill 
           className="object-contain"
-          priority
         />
       </div>
 
@@ -61,7 +60,7 @@ export default function AboutPage() {
             transition={{ delay: 0.5 }}
             className="text-primary-light tracking-[0.3em] uppercase text-xs mb-6 block font-medium"
           >
-            Renee DesignLab
+            Zekeriyaköy Nazmi Arıkan Fen Bilimleri
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -126,7 +125,7 @@ export default function AboutPage() {
         >
           {/* Arka plan monogram */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[20rem] font-black text-white/[0.02] select-none pointer-events-none group-hover:text-primary/[0.03] transition-colors duration-1000">
-            EC
+            NA
           </div>
           
           <div className="relative flex flex-col items-center text-center">
@@ -135,10 +134,10 @@ export default function AboutPage() {
               whileInView={{ width: "120px" }}
               transition={{ duration: 1.5 }}
             />
-            <h2 className="text-4xl md:text-6xl font-serif italic mb-4 tracking-tight">Egemen Cengiz</h2>
+            <h2 className="text-4xl md:text-6xl font-serif italic mb-4 tracking-tight">Nazmi Arıkan</h2>
             <p className="text-primary-light tracking-[0.5em] uppercase text-xs mb-10 font-bold">{t('founder.role')}</p>
             <p className="max-w-xl text-foreground/40 font-light text-lg leading-relaxed italic">
-              "{t('founder.text')}"
+              “{t('founder.text')}”
             </p>
           </div>
         </motion.div>

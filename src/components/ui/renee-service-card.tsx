@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { LucideIcon, ArrowRight } from 'lucide-react';
@@ -17,11 +17,19 @@ interface ReneeServiceCardProps {
 export default function ReneeServiceCard({ title, description, icon: Icon, href, features }: ReneeServiceCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  // Mobil için: tıklayınca flip, back-face'de buton tıklanınca flip açık kalır
+  const handleClick = useCallback((e: React.MouseEvent) => {
+    // Eğer link'e tıklandıysa flip'i değiştirme
+    if ((e.target as HTMLElement).closest('a')) return;
+    setIsFlipped(v => !v);
+  }, []);
+
   return (
-    <div 
-      className="relative h-[420px] w-full perspective-1000 group"
+    <div
+      className="relative h-[420px] w-full perspective-1000 group cursor-pointer select-none"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
+      onClick={handleClick}
     >
       <motion.div
         className="relative w-full h-full transition-all duration-700 preserve-3d"
@@ -29,7 +37,7 @@ export default function ReneeServiceCard({ title, description, icon: Icon, href,
         transition={{ type: "spring", stiffness: 260, damping: 20 }}
       >
         {/* Front Face */}
-        <div className="absolute inset-0 backface-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-white/5 to-purple-900/20 backdrop-blur-xl p-8 flex flex-col items-center justify-center text-center overflow-hidden">
+        <div className="absolute inset-0 backface-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-white/5 to-primary/10 backdrop-blur-xl p-8 flex flex-col items-center justify-center text-center overflow-hidden">
           <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity blur-3xl -z-10" />
           
           <div className="w-20 h-20 rounded-2xl bg-primary/10 flex items-center justify-center mb-8 border border-primary/20 group-hover:scale-110 transition-transform duration-500">
@@ -40,14 +48,15 @@ export default function ReneeServiceCard({ title, description, icon: Icon, href,
           <div className="w-12 h-1 bg-primary/30 rounded-full group-hover:w-24 group-hover:bg-primary/60 transition-all duration-500" />
           
           <div className="mt-8 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-foreground/40 font-bold">
-            <span>Keşfet</span>
+            <span className="hidden sm:inline">Keşfet</span>
+            <span className="sm:hidden">Dokunun</span>
             <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
           </div>
         </div>
 
         {/* Back Face */}
         <div 
-          className="absolute inset-0 backface-hidden rounded-[32px] border border-primary/30 bg-purple-950/40 backdrop-blur-2xl p-8 flex flex-col justify-between [transform:rotateY(180deg)]"
+          className="absolute inset-0 backface-hidden rounded-[32px] border border-primary/30 bg-background/60 backdrop-blur-2xl p-8 flex flex-col justify-between [transform:rotateY(180deg)]"
         >
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -73,9 +82,9 @@ export default function ReneeServiceCard({ title, description, icon: Icon, href,
 
           <Link 
             href={href}
-            className="w-full py-4 rounded-2xl bg-primary hover:bg-primary-light text-white text-sm font-bold transition-all text-center shadow-[0_0_20px_rgba(109,40,217,0.3)] flex items-center justify-center gap-2 group/btn"
+            className="w-full py-4 rounded-2xl bg-primary hover:bg-primary-light text-white text-sm font-bold transition-all text-center shadow-[0_0_20px_rgba(236,32,39,0.3)] flex items-center justify-center gap-2 group/btn"
           >
-            <span>Projeyi Başlat</span>
+            <span>Detayları Gör</span>
             <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
           </Link>
         </div>

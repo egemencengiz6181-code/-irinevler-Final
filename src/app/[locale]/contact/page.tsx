@@ -15,11 +15,10 @@ export default function ContactPage() {
       {/* Soluk Arka Plan Mührü (Özel İletişim Sayfası İçin Yüksek Opasite) */}
       <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.12] rotate-12 pointer-events-none z-0">
         <Image 
-          src="/logos/Main_Simge_Beyaz.png" 
+          src="/logos/Fen%20bilimleri%20logo.png" 
           alt="" 
           fill 
           className="object-contain"
-          priority
         />
       </div>
 
@@ -60,7 +59,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.address')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed">
-                    YDA Center, Çankaya, Ankara
+                    Uskumruköy, Zekeriyaköy Mahallesi, Kilyos Caddesi, No: 238/2, Sarıyer/İstanbul
                   </p>
                 </div>
               </div>
@@ -72,7 +71,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.phone')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors">
-                    0532 504 66 06
+                    0212 201 58 48
                   </p>
                 </div>
               </div>
@@ -84,10 +83,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.email')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
-                    info@reneedesignlab.com
-                  </p>
-                  <p className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
-                    egemen.cengiz@reneedesignlab.com
+                    zekeriyakoyfenbilimleri@gmail.com
                   </p>
                 </div>
               </div>
@@ -119,7 +115,7 @@ export default function ContactPage() {
                 <label className="text-sm font-medium text-foreground/40 ml-1">{t('form.message')}</label>
                 <textarea rows={4} className="w-full px-6 py-4 rounded-2xl bg-background/50 border border-white/10 focus:border-primary-light outline-none transition-colors font-light text-sm resize-none"></textarea>
               </div>
-              <button className="w-full py-5 bg-primary hover:bg-primary-light text-white font-medium rounded-2xl transition-all shadow-[0_0_20px_rgba(109,40,217,0.3)] hover:shadow-[0_0_30_rgba(109,40,217,0.5)] flex items-center justify-center gap-2 group">
+              <button className="w-full py-5 bg-[#ec2027] hover:bg-[#c8191f] text-white font-medium rounded-2xl transition-all shadow-[0_0_20px_rgba(236,32,39,0.3)] hover:shadow-[0_0_30px_rgba(236,32,39,0.5)] flex items-center justify-center gap-2 group">
                 {t('form.send')}
                 <Send className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>

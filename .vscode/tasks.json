@@ -1,0 +1,77 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Clear cache & restart dev",
+			"type": "shell",
+			"command": "rm -rf .next && npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Update en.json",
+			"type": "shell",
+			"command": "cp /tmp/en_school.json messages/en.json && echo 'en.json updated' && wc -l messages/en.json",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "TypeScript check",
+			"type": "shell",
+			"command": "npx tsc --noEmit 2>&1 | head -30",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "TypeScript check 2",
+			"type": "shell",
+			"command": "npx tsc --noEmit 2>&1 | head -30",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Check references page",
+			"type": "shell",
+			"command": "wc -l src/app/\\[locale\\]/references/page.tsx && tail -20 src/app/\\[locale\\]/references/page.tsx",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Fresh TypeScript check",
+			"type": "shell",
+			"command": "npx tsc --noEmit --incremental false 2>&1",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Verify pages",
+			"type": "shell",
+			"command": "curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/tr 2>&1; echo ''; curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/tr/services/7-sinif 2>&1; echo ''",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "TypeScript check rehberlik",
+			"type": "shell",
+			"command": "npx tsc --noEmit 2>&1",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		}
+	]
+}

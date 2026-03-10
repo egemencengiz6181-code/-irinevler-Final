@@ -1,6 +1,6 @@
 import {notFound} from 'next/navigation';
 import {getRequestConfig} from 'next-intl/server';
-import {locales} from './navigation';
+import {locales} from './config/locales';
 
 export default getRequestConfig(async ({requestLocale}) => {
   const locale = await requestLocale;

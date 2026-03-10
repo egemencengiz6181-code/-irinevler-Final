@@ -57,7 +57,7 @@ function Steps({ current, total }: { current: number; total: number }) {
         <div
           key={i}
           className={`h-1 rounded-full transition-all duration-500 ${
-            i < current ? "bg-violet-500 flex-1" : i === current ? "bg-violet-400 flex-[2]" : "bg-white/10 flex-1"
+            i < current ? "bg-[#ec2027] flex-1" : i === current ? "bg-[#f06060] flex-[2]" : "bg-white/10 flex-1"
           }`}
         />
       ))}
@@ -72,13 +72,13 @@ function Field({ label, placeholder, value, onChange, type = "text" }: {
 }) {
   return (
     <div className="space-y-1.5">
-      <label className="text-xs font-semibold uppercase tracking-[0.15em] text-violet-400">{label}</label>
+      <label className="text-xs font-semibold uppercase tracking-[0.15em] text-[#ec2027]">{label}</label>
       <input
         type={type}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="w-full bg-white/5 border border-white/10 hover:border-violet-500/40 focus:border-violet-500 rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all"
+        className="w-full bg-white/5 border border-white/10 hover:border-[#ec2027]/40 focus:border-[#ec2027] rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all"
       />
     </div>
   );
@@ -90,13 +90,13 @@ function TextArea({ label, placeholder, value, onChange }: {
 }) {
   return (
     <div className="space-y-1.5">
-      <label className="text-xs font-semibold uppercase tracking-[0.15em] text-violet-400">{label}</label>
+      <label className="text-xs font-semibold uppercase tracking-[0.15em] text-[#ec2027]">{label}</label>
       <textarea
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         rows={4}
-        className="w-full bg-white/5 border border-white/10 hover:border-violet-500/40 focus:border-violet-500 rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all resize-none"
+        className="w-full bg-white/5 border border-white/10 hover:border-[#ec2027]/40 focus:border-[#ec2027] rounded-xl px-4 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all resize-none"
       />
     </div>
   );
@@ -177,17 +177,17 @@ export default function AnalysisModal() {
               onClick={handleClose}
             >
               <div
-                className="relative w-full max-w-lg bg-[#0a0514] border border-violet-500/20 rounded-3xl shadow-[0_0_80px_rgba(124,58,237,0.2)] overflow-hidden"
+                className="relative w-full max-w-lg bg-[#0a0514] border border-[#ec2027]/20 rounded-3xl shadow-[0_0_80px_rgba(236,32,39,0.2)] overflow-hidden"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Purple glow top */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-violet-600/10 blur-[80px] rounded-full pointer-events-none" />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-[#ec2027]/10 blur-[80px] rounded-full pointer-events-none" />
 
                 <div className="relative p-8">
                   {/* Header */}
                   <div className="flex items-center justify-between mb-2">
                     <div>
-                      <p className="text-xs font-bold uppercase tracking-[0.25em] text-violet-400">
+                      <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#ec2027]">
                         {at('eyebrow')}
                       </p>
                       <h2 className="text-xl font-bold text-white mt-0.5">
@@ -218,18 +218,18 @@ export default function AnalysisModal() {
                             onClick={() => setForm((prev) => ({ ...prev, path: val }))}
                             className={`w-full flex items-center gap-4 p-5 rounded-2xl border text-left transition-all duration-300 group ${
                               form.path === val
-                                ? "border-violet-500 bg-violet-500/10"
-                                : "border-white/8 bg-white/[0.02] hover:border-violet-500/40 hover:bg-white/5"
+                                ? "border-[#ec2027] bg-[#ec2027]/10"
+                                : "border-white/8 bg-white/[0.02] hover:border-[#ec2027]/40 hover:bg-white/5"
                             }`}
                           >
-                            <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors ${form.path === val ? "bg-violet-500/20" : "bg-white/5 group-hover:bg-violet-500/10"}`}>
-                              <Icon className={`w-6 h-6 ${form.path === val ? "text-violet-400" : "text-white/40 group-hover:text-violet-400"}`} />
+                            <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors ${form.path === val ? "bg-[#ec2027]/20" : "bg-white/5 group-hover:bg-[#ec2027]/10"}`}>
+                              <Icon className={`w-6 h-6 ${form.path === val ? "text-[#ec2027]" : "text-white/40 group-hover:text-[#ec2027]"}`} />
                             </div>
                             <div>
                               <div className="font-semibold text-white text-sm">{title}</div>
                               <div className="text-xs text-white/40 mt-0.5">{sub}</div>
                             </div>
-                            {form.path === val && <CheckCircle2 className="w-5 h-5 text-violet-400 ml-auto shrink-0" />}
+                            {form.path === val && <CheckCircle2 className="w-5 h-5 text-[#ec2027] ml-auto shrink-0" />}
                           </button>
                         ))}
                       </motion.div>
@@ -239,8 +239,6 @@ export default function AnalysisModal() {
                     {step === 1 && form.path === "existing" && (
                       <motion.div key="step1a" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-4">
                         <Field label={at('field_website')} placeholder={at('placeholder_website')} value={form.website} onChange={(v) => set("website", v)} />
-                        <Field label="Instagram" placeholder={at('placeholder_instagram')} value={form.instagram} onChange={(v) => set("instagram", v)} />
-                        <Field label="LinkedIn" placeholder={at('placeholder_linkedin')} value={form.linkedin} onChange={(v) => set("linkedin", v)} />
                         <Field label={at('field_name')} placeholder={at('placeholder_name')} value={form.name} onChange={(v) => set("name", v)} />
                         <Field label={at('field_email')} placeholder={at('placeholder_email')} value={form.email} onChange={(v) => set("email", v)} type="email" />
                         <Field label={at('field_phone')} placeholder={at('placeholder_phone')} value={form.phone} onChange={(v) => set("phone", v)} type="tel" />
@@ -253,7 +251,7 @@ export default function AnalysisModal() {
                         <Field label={at('field_sector')} placeholder={at('field_sector_placeholder')} value={form.sector} onChange={(v) => set("sector", v)} />
                         <TextArea label={at('field_project_details')} placeholder={at('field_project_placeholder')} value={form.projectDetail} onChange={(v) => set("projectDetail", v)} />
                         <div className="space-y-2">
-                          <label className="text-xs font-semibold uppercase tracking-[0.15em] text-violet-400">{at('field_services')}</label>
+                          <label className="text-xs font-semibold uppercase tracking-[0.15em] text-[#ec2027]">{at('field_services')}</label>
                           <div className="flex flex-wrap gap-2">
                             {serviceOptions.map((s) => (
                               <button
@@ -261,8 +259,8 @@ export default function AnalysisModal() {
                                 onClick={() => toggleService(s)}
                                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all ${
                                   form.services.includes(s)
-                                    ? "border-violet-500 bg-violet-500/20 text-violet-300"
-                                    : "border-white/10 text-white/40 hover:border-violet-500/40 hover:text-white/70"
+                                    ? "border-[#ec2027] bg-[#ec2027]/20 text-[#f06060]"
+                                    : "border-white/10 text-white/40 hover:border-[#ec2027]/40 hover:text-white/70"
                                 }`}
                               >
                                 {s}
@@ -271,7 +269,7 @@ export default function AnalysisModal() {
                           </div>
                         </div>
                         <div className="pt-2 border-t border-white/8 space-y-4">
-                          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-violet-400">{ft('contact_info')}</p>
+                          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[#ec2027]">{ft('contact_info')}</p>
                           <Field label={at('field_name')} placeholder={at('placeholder_name')} value={form.name} onChange={(v) => set("name", v)} />
                           <Field label={at('field_email')} placeholder={at('placeholder_email')} value={form.email} onChange={(v) => set("email", v)} type="email" />
                           <Field label={at('field_phone')} placeholder={at('placeholder_phone')} value={form.phone} onChange={(v) => set("phone", v)} type="tel" />
@@ -282,8 +280,8 @@ export default function AnalysisModal() {
                     {/* ── STEP 2: Final request ───────────────────── */}
                     {step === 2 && (
                       <motion.div key="step2" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-4">
-                        <div className="p-4 rounded-2xl bg-violet-500/5 border border-violet-500/15">
-                          <p className="text-xs text-violet-400 font-semibold uppercase tracking-wider mb-2">{at('summary_label')}</p>
+                        <div className="p-4 rounded-2xl bg-[#ec2027]/5 border border-[#ec2027]/15">
+                          <p className="text-xs text-[#ec2027] font-semibold uppercase tracking-wider mb-2">{at('summary_label')}</p>
                           <p className="text-sm text-white/60">
                             {form.path === "existing"
                               ? `${at('summary_existing')} · ${form.name} · ${form.email}`
@@ -307,14 +305,14 @@ export default function AnalysisModal() {
                         animate={{ opacity: 1, scale: 1 }}
                         className="text-center py-8 space-y-4"
                       >
-                        <div className="w-16 h-16 rounded-full bg-violet-500/20 border border-violet-500/30 flex items-center justify-center mx-auto">
-                          <CheckCircle2 className="w-8 h-8 text-violet-400" />
+                        <div className="w-16 h-16 rounded-full bg-[#ec2027]/20 border border-[#ec2027]/30 flex items-center justify-center mx-auto">
+                          <CheckCircle2 className="w-8 h-8 text-[#ec2027]" />
                         </div>
                         <h3 className="text-xl font-bold text-white">{at('success_title')}</h3>
                         <p className="text-sm text-white/40 max-w-xs mx-auto">{at('success_text')}</p>
                         <button
                           onClick={handleClose}
-                          className="mt-4 px-8 py-3 rounded-full bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition-all hover:scale-105"
+                          className="mt-4 px-8 py-3 rounded-full bg-[#ec2027] hover:bg-[#c8191f] text-white text-sm font-semibold transition-all hover:scale-105"
                         >
                           {at('btn_close')}
                         </button>
@@ -339,7 +337,7 @@ export default function AnalysisModal() {
                         <button
                           onClick={() => setStep((s) => s + 1)}
                           disabled={!canNext}
-                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-violet-600 hover:bg-violet-500 disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm font-semibold transition-all hover:scale-105 active:scale-95"
+                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#ec2027] hover:bg-[#c8191f] disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm font-semibold transition-all hover:scale-105 active:scale-95"
                         >
                           {at('btn_next')}
                           <ArrowRight className="w-4 h-4" />
@@ -348,7 +346,7 @@ export default function AnalysisModal() {
                         <button
                           onClick={handleSubmit}
                           disabled={!canNext || loading}
-                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-violet-600 hover:bg-violet-500 disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm font-semibold transition-all hover:scale-105 active:scale-95"
+                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#ec2027] hover:bg-[#c8191f] disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm font-semibold transition-all hover:scale-105 active:scale-95"
                         >
                           {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                           {loading ? at('btn_sending') : at('btn_submit')}

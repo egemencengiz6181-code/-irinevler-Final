@@ -1,11 +1,11 @@
 'use client';
 
 import ReneeServiceCard from '@/components/ui/renee-service-card';
-import { Search, Target, Share2, Code, Globe, Camera, Palette, Megaphone } from 'lucide-react';
+import { BookOpen, GraduationCap, Trophy, FileText } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-const serviceIcons = [Search, Target, Share2, Code, Globe, Camera, Palette, Megaphone];
-const serviceSlugs = ['seo', 'google-ads', 'meta-ads', 'web-design', 'social-media', 'production', 'design', 'pr'];
+const serviceIcons = [BookOpen, GraduationCap, BookOpen, FileText, Trophy, GraduationCap, FileText];
+const serviceSlugs = ['7-sinif', '8-sinif', '10-sinif', '11-sinif', '12-sinif', 'mezun', 'deneme-kulubu'];
 
 export default function ServicesSection() {
   const t = useTranslations('Services');
@@ -26,12 +26,11 @@ export default function ServicesSection() {
           <h3 className="text-4xl md:text-6xl font-bold tracking-tighter text-white">{t('subtitle')}</h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {services.map((service, index) => (
-            <ReneeServiceCard
-              key={index}
-              {...service}
-            />
+            <div key={index} className="w-full md:w-[calc(50%-16px)] lg:w-[calc(25%-24px)]">
+              <ReneeServiceCard {...service} />
+            </div>
           ))}
         </div>
       </div>

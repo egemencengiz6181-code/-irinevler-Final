@@ -181,23 +181,23 @@ export default function CyberneticBentoGrid() {
         {/* Section header */}
         <div className="mb-16 flex items-end justify-between">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-violet-400 mb-3">
+            <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#ec2027] mb-3">
               ✦ {t("section_label")}
             </p>
             <h2 className="text-5xl md:text-6xl font-black tracking-tighter leading-none text-white">
               {t("section_title_1")}
               <br />
-              <span className="bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#ec2027] to-[#12648f] bg-clip-text text-transparent">
                 {t("section_title_2")}
               </span>
             </h2>
           </div>
           <Link
             href={"/references" as any}
-            className="hidden md:inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/10 text-white/50 hover:text-white hover:border-violet-500/50 text-sm font-semibold transition-all group"
+            className="hidden md:inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/10 text-white/50 hover:text-white hover:border-[#ec2027]/50 text-sm font-semibold transition-all group"
           >
             {t("view_all")}
-            <ExternalLink className="w-4 h-4 group-hover:text-violet-400" />
+            <ExternalLink className="w-4 h-4 group-hover:text-[#ec2027]" />
           </Link>
         </div>
 

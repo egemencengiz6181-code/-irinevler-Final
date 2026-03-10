@@ -4,8 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { Link } from '@/navigation';
 import { 
-  Search, Target, Share2, Code, 
-  Globe, Camera, Palette, Megaphone 
+  BookOpen, GraduationCap, Trophy, FileText, Users
 } from 'lucide-react';
 import React from 'react';
 
@@ -114,32 +113,32 @@ export default function ServicesPage() {
           </motion.p>
         </div>
 
-        {/* Strateji Bölümü */}
+        {/* Ortaokul Programı */}
         <section className="mb-32">
-          <SectionHeader title={t('sections.strategy')} />
+          <SectionHeader title={t('sections.ortaokul')} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ServiceCard slug="seo" icon={Search} span="md:col-span-1" />
-            <ServiceCard slug="pr" icon={Megaphone} span="md:col-span-2" />
+            <ServiceCard slug="7-sinif" icon={BookOpen} span="md:col-span-1" />
+            <ServiceCard slug="8-sinif" icon={GraduationCap} span="md:col-span-2" />
           </div>
         </section>
 
-        {/* Tasarım Bölümü */}
+        {/* Lise Programı */}
         <section className="mb-32">
-          <SectionHeader title={t('sections.design')} />
+          <SectionHeader title={t('sections.lise')} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ServiceCard slug="web-design" icon={Code} span="md:col-span-2" />
-            <ServiceCard slug="design" icon={Palette} span="md:col-span-1" />
-            <ServiceCard slug="production" icon={Camera} span="md:col-span-3" />
+            <ServiceCard slug="10-sinif" icon={BookOpen} span="md:col-span-1" />
+            <ServiceCard slug="11-sinif" icon={FileText} span="md:col-span-1" />
+            <ServiceCard slug="12-sinif" icon={Trophy} span="md:col-span-1" />
+            <ServiceCard slug="mezun" icon={GraduationCap} span="md:col-span-2" />
+            <ServiceCard slug="acik-lise" icon={BookOpen} span="md:col-span-1" />
           </div>
         </section>
 
-        {/* Performans Bölümü */}
+        {/* Destek & Analiz */}
         <section>
-          <SectionHeader title={t('sections.performance')} />
+          <SectionHeader title={t('sections.destek')} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ServiceCard slug="google-ads" icon={Target} span="md:col-span-1" />
-            <ServiceCard slug="meta-ads" icon={Share2} span="md:col-span-1" />
-            <ServiceCard slug="social-media" icon={Globe} span="md:col-span-1" />
+            <ServiceCard slug="deneme-kulubu" icon={FileText} span="md:col-span-3" />
           </div>
         </section>
       </div>

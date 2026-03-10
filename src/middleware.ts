@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import createIntlMiddleware from "next-intl/middleware";
-import { locales, localePrefix } from "./navigation";
+import { locales, localePrefix } from "./config/locales";
 
 const intlMiddleware = createIntlMiddleware({
   defaultLocale: "tr",
@@ -15,6 +15,6 @@ export function middleware(request: NextRequest): NextResponse {
 export const config = {
   matcher: [
     "/",
-    "/(tr|en)/:path*",
+    "/(tr)/:path*",
   ],
 };
