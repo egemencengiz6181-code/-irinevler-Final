@@ -59,16 +59,13 @@ function StoryCard({ s, i }: { s: typeof successStories[0]; i: number }) {
     <motion.div
       initial={{ opacity: 0, y: 40, scale: 0.96 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      whileHover={{ y: -6, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1], delay: 0 } }}
       viewport={{ once: true, margin: '-60px' }}
       transition={{ delay: i * 0.08, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative rounded-3xl p-[1px] cursor-default min-h-[14rem] list-none"
-      style={{
-        transform: hovered ? 'translateY(-6px)' : 'translateY(0)',
-        transition: 'transform 0.5s cubic-bezier(0.22,1,0.36,1)',
-        gridArea: s.gridArea,
-      }}
+      className="relative rounded-3xl p-[1px] cursor-default min-h-[14rem]"
+      style={{ gridArea: s.gridArea }}
     >
       {/* GlowingEffect border */}
       <div className="relative h-full rounded-3xl border border-black/[0.035] dark:border-white/[0.035]">
@@ -192,14 +189,14 @@ export default function ReferencesPage() {
         </motion.div>
 
         {/* ── BAŞARI KARTLARI ── */}
-        <ul
+        <div
           className="hidden md:grid gap-4 mb-24"
           style={{ gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'repeat(3, minmax(14rem, auto))' }}
         >
           {successStories.map((s, i) => (
             <StoryCard key={i} s={s} i={i} />
           ))}
-        </ul>
+        </div>
         {/* mobile fallback — simple 1-col */}
         <div className="md:hidden flex flex-col gap-4 mb-24">
           {successStories.map((s, i) => (
