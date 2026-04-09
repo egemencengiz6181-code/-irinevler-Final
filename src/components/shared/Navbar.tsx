@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Link, usePathname } from "@/navigation"
-import { LucideIcon, ChevronDown, GraduationCap, BookOpen, Users, FileText, Menu, X, Trophy, Award } from "lucide-react"
+import { LucideIcon, ChevronDown, GraduationCap, BookOpen, Users, FileText, Menu, X, Trophy, Award, Star } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useTranslations } from 'next-intl'
 import LanguageSwitcher from "./LanguageSwitcher"
@@ -56,14 +56,14 @@ export default function Navbar() {
   ]
 
   const services: ServiceItem[] = [
-      { title: st('items.7-sinif.title'), description: st('items.7-sinif.description'), href: "/services/7-sinif", icon: BookOpen },
-    { title: st('items.8-sinif.title'), description: st('items.8-sinif.description'), href: "/services/8-sinif", icon: BookOpen },
     { title: st('items.10-sinif.title'), description: st('items.10-sinif.description'), href: "/services/10-sinif", icon: GraduationCap },
     { title: st('items.11-sinif.title'), description: st('items.11-sinif.description'), href: "/services/11-sinif", icon: GraduationCap },
     { title: st('items.12-sinif.title'), description: st('items.12-sinif.description'), href: "/services/12-sinif", icon: GraduationCap },
     { title: st('items.mezun.title'), description: st('items.mezun.description'), href: "/services/mezun", icon: Trophy },
-    { title: st('items.acik-lise.title'), description: st('items.acik-lise.description'), href: "/services/acik-lise", icon: FileText },
     { title: st('items.deneme-kulubu.title'), description: st('items.deneme-kulubu.description'), href: "/services/deneme-kulubu", icon: FileText },
+    { title: st('items.12-sinif-vip.title'), description: st('items.12-sinif-vip.description'), href: "/services/12-sinif-vip", icon: Star },
+    { title: st('items.mezun-vip.title'), description: st('items.mezun-vip.description'), href: "/services/mezun-vip", icon: Star },
+    { title: st('items.ozel-ders.title'), description: st('items.ozel-ders.description'), href: "/services/ozel-ders", icon: Users },
   ]
 
   useEffect(() => {
@@ -105,7 +105,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <Image 
                       src="/logos/Fen%20bilimleri%20logo.png" 
-            alt="Zekeriyaköy Fen Bilimleri Dershanesi" 
+            alt="Halkalı Fen Bilimleri Dershanesi" 
             width={240} 
             height={72} 
             className="h-[64px] md:h-[80px] w-auto object-contain"
@@ -242,7 +242,7 @@ export default function Navbar() {
             <Link href="/" onClick={() => setIsMobileOpen(false)}>
               <Image
                 src="/logos/Fen%20bilimleri%20logo.png"
-                alt="Zekeriyaköy Fen Bilimleri Dershanesi"
+                alt="Halkalı Fen Bilimleri Dershanesi"
                 width={200}
                 height={60}
                 className="h-[56px] w-auto object-contain"

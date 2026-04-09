@@ -85,7 +85,7 @@ export default function HeroMain() {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-[#ec2027] animate-pulse" />
           <span className="text-xs font-semibold tracking-[0.25em] uppercase text-[#ec2027]/80">
-            Zekeriyaköy · Sarıyer / İstanbul
+            Halkalı · Küçükçekmece / İstanbul
           </span>
         </motion.div>
 
@@ -125,7 +125,7 @@ export default function HeroMain() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/902122015848"
+            href="https://wa.me/905428250868"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#ec2027] hover:bg-[#c8191f] text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_32px_rgba(236,32,39,0.45)] hover:shadow-[0_0_48px_rgba(236,32,39,0.6)]"

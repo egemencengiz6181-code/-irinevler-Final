@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { Link } from '@/navigation';
 import { 
-  BookOpen, GraduationCap, Trophy, FileText, Users
+  BookOpen, GraduationCap, Trophy, FileText, Users, Star
 } from 'lucide-react';
 import React from 'react';
 
@@ -113,15 +113,6 @@ export default function ServicesPage() {
           </motion.p>
         </div>
 
-        {/* Ortaokul Programı */}
-        <section className="mb-32">
-          <SectionHeader title={t('sections.ortaokul')} />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ServiceCard slug="7-sinif" icon={BookOpen} span="md:col-span-1" />
-            <ServiceCard slug="8-sinif" icon={GraduationCap} span="md:col-span-2" />
-          </div>
-        </section>
-
         {/* Lise Programı */}
         <section className="mb-32">
           <SectionHeader title={t('sections.lise')} />
@@ -130,15 +121,24 @@ export default function ServicesPage() {
             <ServiceCard slug="11-sinif" icon={FileText} span="md:col-span-1" />
             <ServiceCard slug="12-sinif" icon={Trophy} span="md:col-span-1" />
             <ServiceCard slug="mezun" icon={GraduationCap} span="md:col-span-2" />
-            <ServiceCard slug="acik-lise" icon={BookOpen} span="md:col-span-1" />
           </div>
         </section>
 
         {/* Destek & Analiz */}
-        <section>
+        <section className="mb-32">
           <SectionHeader title={t('sections.destek')} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ServiceCard slug="deneme-kulubu" icon={FileText} span="md:col-span-3" />
+            <ServiceCard slug="deneme-kulubu" icon={FileText} span="md:col-span-2" />
+            <ServiceCard slug="ozel-ders" icon={Users} span="md:col-span-1" />
+          </div>
+        </section>
+
+        {/* VIP Programlar */}
+        <section>
+          <SectionHeader title={t('sections.vip')} />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <ServiceCard slug="12-sinif-vip" icon={Star} span="md:col-span-2" />
+            <ServiceCard slug="mezun-vip" icon={Star} span="md:col-span-1" />
           </div>
         </section>
       </div>

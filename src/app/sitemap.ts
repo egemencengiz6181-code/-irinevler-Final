@@ -5,13 +5,10 @@ const origin = 'https://www.zekeriyakoyfenbilimleri.com';
 const locales = ['tr'] as const;
 
 const serviceSlugs = [
-  '7-sinif',
-  '8-sinif',
   '10-sinif',
   '11-sinif',
   '12-sinif',
   'mezun',
-  'acik-lise',
   'deneme-kulubu',
 ] as const;
 

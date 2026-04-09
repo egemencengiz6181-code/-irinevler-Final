@@ -38,7 +38,7 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: 'tr_TR',
-      siteName: 'Zekeriyaköy Fen Bilimleri',
+      siteName: 'Halkalı Fen Bilimleri',
       title: t('title'),
       description: t('description'),
       url: `${origin}/${locale}`,

@@ -9,7 +9,6 @@ const validSlugs = [
   '11-sinif',
   '12-sinif',
   'mezun',
-  'acik-lise',
   'deneme-kulubu',
 ] as const;
 

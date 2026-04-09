@@ -59,7 +59,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.address')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed">
-                    Uskumruköy, Zekeriyaköy Mahallesi, Kilyos Caddesi, No: 238/2, Sarıyer/İstanbul
+                    Kent Hastanesi Karşısı, Halkalı Merkez, Fatih Cd. No : 18/1 Kat : 1, 34303 Küçükçekmece/İstanbul
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.phone')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors">
-                    0212 201 58 48
+                    0(542) 825 08 68
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.email')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
-                    zekeriyakoyfenbilimleri@gmail.com
+                    nazmiarikanfenbilimlerihalkali@gmail.com
                   </p>
                 </div>
               </div>

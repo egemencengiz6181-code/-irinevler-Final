@@ -42,15 +42,25 @@ const slugImages: Record<string, { hero: string; tech: string; alt: string }> = 
     tech: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1400&q=80',
     alt: 'Mezun YKS hazırlık programı',
   },
-  'acik-lise': {
-    hero: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1400&q=80',
-    tech: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1400&q=80',
-    alt: 'Açık lise destek programı',
-  },
   'deneme-kulubu': {
     hero: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&q=80',
     tech: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=80',
     alt: 'Deneme kulübü ve sınav analizi',
+  },
+  '12-sinif-vip': {
+    hero: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=1400&q=80',
+    tech: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1400&q=80',
+    alt: '12. Sınıf VIP programı',
+  },
+  'mezun-vip': {
+    hero: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1400&q=80',
+    tech: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1400&q=80',
+    alt: 'Mezun VIP programı',
+  },
+  'ozel-ders': {
+    hero: 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=1400&q=80',
+    tech: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1400&q=80',
+    alt: 'Birebir özel ders',
   },
   rehberlik: {
     hero: 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=1400&q=80',
@@ -117,8 +127,9 @@ function ToolBadge({ label }: { label: string }) {
 
 // Valid school service slugs — must match Services.items keys in messages
 const VALID_SLUGS = [
-  '7-sinif', '8-sinif', '10-sinif', '11-sinif', '12-sinif',
-  'mezun', 'acik-lise', 'deneme-kulubu',
+  '10-sinif', '11-sinif', '12-sinif',
+  'mezun', 'deneme-kulubu',
+  '12-sinif-vip', 'mezun-vip', 'ozel-ders',
 ];
 
 // ─── Page ─────────────────────────────────────────────────────────────────────

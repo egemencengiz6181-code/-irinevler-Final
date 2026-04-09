@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
-import { FlaskConical, Trophy, Users, BookOpen } from 'lucide-react';
+import { FlaskConical, Trophy, Users, BookOpen, BookMarked } from 'lucide-react';
 import Image from 'next/image';
 
 interface SectionWithMockupProps {
@@ -139,7 +139,7 @@ const SectionWithMockup: React.FC<SectionWithMockupProps> = ({ title, descriptio
 
             {/* Front image — okul2 */}
             <FloatingImage
-              src="/okul2/okul2.jpeg"
+              src="/okul2/okul2.jpg"
               float={{ y: [0, 10, 0], duration: 7, delay: 1.2 }}
               className="absolute top-0 right-0 w-[70%] h-[78%] rounded-2xl overflow-hidden border border-white/[0.11] shadow-2xl cursor-pointer"
             >
@@ -213,6 +213,21 @@ const SectionWithMockup: React.FC<SectionWithMockupProps> = ({ title, descriptio
                   <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-[#ec2027]/5 to-transparent pointer-events-none" />
                 </motion.div>
               ))}
+
+              {/* Kişiye Özel Kitap - Sıfır Hata */}
+              <motion.div
+                variants={fadeUp}
+                className="col-span-2 group relative flex flex-col gap-3 p-5 rounded-2xl border border-black/[0.07] dark:border-white/[0.07] bg-black/[0.03] dark:bg-white/[0.03] hover:border-[#ec2027]/30 hover:bg-[#ec2027]/[0.04] transition-all duration-300 cursor-default"
+              >
+                <div className="w-9 h-9 rounded-xl bg-[#ec2027]/10 flex items-center justify-center group-hover:bg-[#ec2027]/20 transition-colors">
+                  <BookMarked className="w-4 h-4 text-[#ec2027]" />
+                </div>
+                <div>
+                  <p className="text-slate-900 dark:text-white font-bold text-sm leading-snug">Kişiye Özel Kitap - Sıfır Hata</p>
+                  <p className="text-slate-500 dark:text-white/40 text-xs mt-1 leading-relaxed">Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.</p>
+                </div>
+                <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-[#ec2027]/5 to-transparent pointer-events-none" />
+              </motion.div>
             </motion.div>
           </motion.div>
         </div>

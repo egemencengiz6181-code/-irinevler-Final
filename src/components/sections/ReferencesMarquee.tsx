@@ -18,14 +18,13 @@ const row1 = [
 ]
 
 const row2 = [
-  "LGS'de 500 Tam Puan",
   "YKS'de İlk 100",
   "30 Yıllık Tecrübe",
   "Bireysel Öğrenci Takibi",
   "Küçük Grup Dersleri",
   "Deneyimli Öğretmenler",
   "%95 Hedef Okul Başarısı",
-  "1995'ten Beri Sarıyer'de",
+  "1995'ten Beri Halkalı'da",
   "Sınırsız Tekrar İmkânı",
 ]
 

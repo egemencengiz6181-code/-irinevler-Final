@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.zekeriyakoyfenbilimleri.com'),
   title: {
-    default: 'Zekeriyaköy Fen Bilimleri',
-    template: '%s | Zekeriyaköy Fen Bilimleri',
+    default: 'Halkalı Fen Bilimleri',
+    template: '%s | Halkalı Fen Bilimleri',
   },
-  description: "Sarıyer — Zekeriyaköy Nazmi Arıkan Fen Bilimleri Dershanesi. LGS ve YKS'de hedef okula giden yol.",
-  authors: [{ name: 'Zekeriyaköy Fen Bilimleri', url: 'https://www.zekeriyakoyfenbilimleri.com' }],
-  creator: 'Zekeriyaköy Fen Bilimleri',
-  publisher: 'Zekeriyaköy Fen Bilimleri',
+  description: "Küçükçekmece — Halkalı Nazmi Arıkan Fen Bilimleri Dershanesi. YKS, TYT ve AYT'de hedef üniversiteye giden yol.",
+  authors: [{ name: 'Halkalı Fen Bilimleri', url: 'https://www.zekeriyakoyfenbilimleri.com' }],
+  creator: 'Halkalı Fen Bilimleri',
+  publisher: 'Halkalı Fen Bilimleri',
   robots: {
     index: true,
     follow: true,
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    siteName: 'Zekeriyaköy Fen Bilimleri',
+    siteName: 'Halkalı Fen Bilimleri',
     locale: 'tr_TR',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@zekeriyakoyfenbilimleri',
-    creator: '@zekeriyakoyfenbilimleri',
+    site: '@halkalifenbilimleri',
+    creator: '@halkalifenbilimleri',
   },
 };
 

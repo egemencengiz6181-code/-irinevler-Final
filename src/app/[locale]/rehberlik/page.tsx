@@ -94,7 +94,7 @@ const SECTIONS: SectionItem[] = [
     list: [
       'Odaklanma ve Dikkat',
       'Veli Eğitim Seminerleri',
-      "LGS'ye İlk Adım",
+      "YKS'ye İlk Adım",
       'Zamanı Etkili Kullanma',
       'Verimli Test Çözme Teknikleri',
       'Liseye / Üniversiteye Geri Sayım',
@@ -293,7 +293,7 @@ export default function RehberlikPage() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#12648f]/30 bg-[#12648f]/[0.08] backdrop-blur-sm mb-8"
               >
                 <Sparkles className="w-3.5 h-3.5 text-[#12648f]" />
-                <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#12648f]">Zekeriyaköy Fen Bilimleri</span>
+                <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#12648f]">Halkalı Fen Bilimleri</span>
               </motion.div>
 
               <motion.h1

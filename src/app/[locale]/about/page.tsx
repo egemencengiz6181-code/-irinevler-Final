@@ -60,7 +60,7 @@ export default function AboutPage() {
             transition={{ delay: 0.5 }}
             className="text-primary-light tracking-[0.3em] uppercase text-xs mb-6 block font-medium"
           >
-            Zekeriyaköy Nazmi Arıkan Fen Bilimleri
+            Halkalı Nazmi Arıkan Fen Bilimleri
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}

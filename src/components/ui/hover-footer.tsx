@@ -115,7 +115,7 @@ export default function HoverFooter() {
   ];
 
   const socialLinks = [
-    { icon: <Instagram className="w-4 h-4" />, href: "https://www.instagram.com/zekeriyakoyfenbilimleri", label: "Instagram" },
+    { icon: <Instagram className="w-4 h-4" />, href: "https://www.instagram.com/nazmi.arikanhalkali/", label: "Instagram" },
   ];
 
   return (
@@ -133,7 +133,7 @@ export default function HoverFooter() {
             <Link href="/" className="inline-block pointer-events-auto">
               <Image
                 src="/logos/Fen%20bilimleri%20logo.png"
-                alt="Zekeriyaköy Fen Bilimleri Dershanesi"
+                alt="Halkalı Fen Bilimleri Dershanesi"
                 width={180}
                 height={60}
                 className="h-16 w-auto object-contain"
@@ -181,15 +181,15 @@ export default function HoverFooter() {
             <p className="text-xs font-bold uppercase tracking-[0.25em] text-slate-400 dark:text-white/25">{ft('contact')}</p>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:zekeriyakoyfenbilimleri@gmail.com" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors group pointer-events-auto">
+                <a href="mailto:nazmiarikanfenbilimlerihalkali@gmail.com" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors group pointer-events-auto">
                   <Mail className="w-4 h-4 text-[#ec2027] shrink-0" />
-                  zekeriyakoyfenbilimleri@gmail.com
+                  nazmiarikanfenbilimlerihalkali@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+902122015848" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors pointer-events-auto">
+                <a href="tel:+905428250868" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors pointer-events-auto">
                   <Phone className="w-4 h-4 text-[#ec2027] shrink-0" />
-                  0212 201 58 48
+                  0(542) 825 08 68
                 </a>
               </li>
               <li className="flex items-start gap-3 text-sm text-slate-500 dark:text-white/40">
@@ -208,7 +208,7 @@ export default function HoverFooter() {
         {/* Bottom bar */}
         <div className="pt-6 border-t border-black/5 dark:border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-400 dark:text-white/20">
-            © {new Date().getFullYear()} Zekeriyaköy Fen Bilimleri. {ft('rights_suffix')}
+            © {new Date().getFullYear()} Halkalı Fen Bilimleri. {ft('rights_suffix')}
           </p>
           <p className="text-xs text-slate-400 dark:text-white/20">
             {ft('tagline')}

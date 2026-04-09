@@ -1,12 +1,12 @@
 {
   "Index": {
-    "title": "Zekeriyaköy Fen Bilimleri | Sarıyer İstanbul",
-    "description": "Zekeriyaköy Nazmi Arıkan Fen Bilimleri Dershanesi — Sarıyer'de 7. sınıftan mezuna, LGS'den YKS'ye kapsamlı ders programları."
+    "title": "Halkalı Fen Bilimleri | Küçükçekmece İstanbul",
+    "description": "Halkalı Nazmi Arıkan Fen Bilimleri Dershanesi — Küçükçekmece'de lise ve üniversite hazırlık (YKS, TYT, AYT) ders programları."
   },
   "Hero": {
-    "eyebrow": "Zekeriyaköy · Sarıyer / İstanbul",
+    "eyebrow": "Halkalı · Küçükçekmece / İstanbul",
     "title": "Başarıya Giden Yol",
-    "subtitle": "LGS ve YKS'de hedeflediğin okula ulaşmak için doğru adres.",
+    "subtitle": "YKS'de hedeflediğin üniversiteye ulaşmak için doğru adres.",
     "headline": "Hedefine Giden Yolu Birlikte Çiziyoruz",
     "slogan": "Deneyimli öğretmenler, bireysel takip ve kanıtlanmış ders programlarıyla yanındayız.",
     "cta": "Programları Keşfet"
@@ -15,17 +15,17 @@
     "title_prefix": "Başarıya",
     "title_highlight": "giden yol",
     "title_suffix": "buradan geçer.",
-    "subtitle": "LGS ve YKS'de hedef okuluna ulaşmak için doğru adres. Deneyimli öğretmenler, kişisel takip ve kanıtlanmış ders programlarıyla yanındayız.",
+    "subtitle": "YKS'de hedef üniversitene ulaşmak için doğru adres. Deneyimli öğretmenler, kişisel takip ve kanıtlanmış ders programlarıyla yanındayız.",
     "cta": "Kayıt ve Bilgi Al"
   },
   "Services": {
-    "meta_title": "Programlarımız | Zekeriyaköy Fen Bilimleri",
-    "meta_description": "7. sınıftan mezuna, LGS'den YKS'ye kapsamlı ve kişiselleştirilmiş ders programları.",
+    "meta_title": "Programlarımız | Halkalı Fen Bilimleri",
+    "meta_description": "Lise ve mezunlara, YKS, TYT ve AYT'ye yönelik kapsamlı ve kişiselleştirilmiş ders programları.",
     "title": "Programlarımız",
     "subtitle": "Her öğrencinin hedefine özel, uzmanlıkla hazırlanmış ders programları.",
     "cta": "Bilgi Al",
     "back": "Tüm Programlar",
-    "discovery_title": "Neden Zekeriyaköy Fen Bilimleri?",
+    "discovery_title": "Neden Halkalı Fen Bilimleri?",
     "strategy_section": "Program Detayı",
     "tech_section": "Yayın & Süre",
     "scope": "Kapsam",
@@ -33,7 +33,8 @@
     "sections": {
       "ortaokul": "Ortaokul Programı",
       "lise": "Lise Programı",
-      "destek": "Destek & Analiz"
+      "destek": "Destek & Analiz",
+      "vip": "VIP Programlar"
     },
     "items": {
       "7-sinif": {
@@ -60,7 +61,7 @@
           "Ödev takibi",
           "Veli görüşmeleri"
         ],
-        "meta_title": "7. Sınıf Programı | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "7. Sınıf Programı | Halkalı Fen Bilimleri",
         "meta_description": "7. sınıf öğrencileri için haftalık 12 ders saati, ÖZDEBİR yayınları destekli kapsamlı program."
       },
       "8-sinif": {
@@ -87,7 +88,7 @@
           "Net analizi",
           "Psikolojik destek"
         ],
-        "meta_title": "8. Sınıf & LGS Hazırlık | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "8. Sınıf & LGS Hazırlık | Halkalı Fen Bilimleri",
         "meta_description": "LGS'ye yönelik haftalık 14 ders saati, Apotemi destekli yoğun hazırlık programı."
       },
       "10-sinif": {
@@ -114,7 +115,7 @@
           "Kariyer rehberliği",
           "Değerlendirme"
         ],
-        "meta_title": "10. Sınıf Programı | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "10. Sınıf Programı | Halkalı Fen Bilimleri",
         "meta_description": "10. sınıf öğrencileri için haftalık 10 ders saati stratejik hazırlık programı."
       },
       "11-sinif": {
@@ -141,7 +142,7 @@
           "Performans raporu",
           "Motivasyon desteği"
         ],
-        "meta_title": "11. Sınıf Programı | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "11. Sınıf Programı | Halkalı Fen Bilimleri",
         "meta_description": "11. sınıf YKS hazırlık programı. Haftalık 14 ders saati, Mozaik yayınları."
       },
       "12-sinif": {
@@ -168,7 +169,7 @@
           "Net analizi",
           "Tercih rehberliği"
         ],
-        "meta_title": "12. Sınıf & YKS Hazırlık | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "12. Sınıf & YKS Hazırlık | Halkalı Fen Bilimleri",
         "meta_description": "12. sınıf YKS programı. Haftalık 18 ders saati, haftada 2 deneme ve tercih rehberliği."
       },
       "mezun": {
@@ -195,53 +196,26 @@
           "Esnek program",
           "Tercih desteği"
         ],
-        "meta_title": "Mezun & YKS Programı | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "Mezun & YKS Programı | Halkalı Fen Bilimleri",
         "meta_description": "Mezun öğrencilere birebir ders ve esnek YKS hazırlık programı."
-      },
-      "acik-lise": {
-        "title": "Açık Lise",
-        "description": "Açık öğretim lise öğrencilerine sınav hazırlık desteği ve YKS programı.",
-        "hero_quote": "Açık lise, engel değil fırsat. Doğru destekle hedefe ulaşırsın.",
-        "intro": "Açık Lise programımız, öğrencilerin hem Açık Lise sınavlarına hem de YKS'ye hazırlanmasını destekler. Esnek program yapısı kendi hızında ilerlemeye imkân tanır.",
-        "body": "Açık Lise dönem sınavları ve YKS hazırlığı paralel yürütülür.",
-        "strategy_title": "Açık Lise Programı",
-        "phase1_title": "Sınav Desteği",
-        "phase1_text": "Açık Lise dönem sınavlarına yönelik konu özeti ve test çalışmaları.",
-        "phase2_title": "YKS Entegrasyonu",
-        "phase2_text": "YKS hazırlığı ile Açık Lise sürecini birlikte götürme. TYT ve AYT paralel yürütülür.",
-        "phase3_title": "Kişisel Planlama",
-        "phase3_text": "Bireysel duruma göre hazırlanan esnek çalışma takvimi ve danışman desteği.",
-        "result_title": "Hedef",
-        "result_text": "Açık Lise diploması ve YKS'de başarılı sonuç.",
-        "tech_title": "MEB & YKS Kaynakları · Esnek program",
-        "tech_intro": "MEB ve YKS kaynaklarını kullanıyoruz. Esnek ders saati.",
-        "tech_tools": "Açık lise desteği · YKS hazırlığı · Esnek program · Danışmanlık",
-        "features": [
-          "Açık lise desteği",
-          "YKS hazırlığı",
-          "Esnek program",
-          "Danışmanlık"
-        ],
-        "meta_title": "Açık Lise Programı | Zekeriyaköy Fen Bilimleri",
-        "meta_description": "Açık öğretim lise öğrencileri için sınav hazırlık ve YKS programı."
       },
       "deneme-kulubu": {
         "title": "Deneme Kulübü",
-        "description": "Düzenli deneme sınavları, net analizi ve akran öğrenmesi. Tüm sınıflara açık.",
+        "description": "Düzenli YKS deneme sınavları, net analizi ve akran öğrenmesi. Tüm sınıflara açık.",
         "hero_quote": "Her deneme seni bir adım öne taşır.",
-        "intro": "Deneme Kulübü, tüm sınıf düzeylerindeki öğrencilere düzenli sınav deneyimi kazandırmayı hedefler. Haftalık LGS ve YKS formatında denemeler ve detaylı net analizi.",
+        "intro": "Deneme Kulübü, tüm lise sınıflarındaki ve mezun öğrencilere düzenli sınav deneyimi kazandırmayı hedefler. Haftalık YKS formatında denemeler ve detaylı net analizi.",
         "body": "Grup değerlendirme görüşmeleri ve akran öğrenmesi ile öğrenciler sürekli gelişir.",
         "strategy_title": "Deneme Kulübü Programı",
-        "phase1_title": "Haftalık Deneme",
-        "phase1_text": "LGS ve YKS formatında haftalık tam denemeler. Gerçek sınav koşullarında uygulama.",
+        "phase1_title": "Haftalık YKS Denemesi",
+        "phase1_text": "YKS formatında haftalık tam denemeler. Gerçek sınav koşullarında uygulama.",
         "phase2_title": "Net Analizi",
         "phase2_text": "Deneme sonrası konu bazlı net analizi, yanlış yapılan soruların bireysel incelenmesi.",
         "phase3_title": "Grup Değerlendirme",
         "phase3_text": "Öğrencilerin bir arada değerlendirme yaptığı grup görüşmeleri ve akran öğrenmesi.",
         "result_title": "Kazanım",
         "result_text": "Sürekli artan net sayısı, sınav alışkanlığı ve güçlenen özgüven.",
-        "tech_title": "Tüm Format · Haftalık deneme + analiz",
-        "tech_intro": "LGS ve YKS formatında haftalık deneme sınavları. Analiz görüşmeleri dahil.",
+        "tech_title": "YKS Formatı · Haftalık deneme + analiz",
+        "tech_intro": "YKS formatında haftalık deneme sınavları. Analiz görüşmeleri dahil.",
         "tech_tools": "Haftalık deneme · Net analizi · Grup değerlendirme · Gelişim takibi",
         "features": [
           "Haftalık deneme",
@@ -249,8 +223,8 @@
           "Grup değerlendirme",
           "Gelişim takibi"
         ],
-        "meta_title": "Deneme Kulübü | Zekeriyaköy Fen Bilimleri",
-        "meta_description": "Haftalık LGS ve YKS formatında denemeler, net analizi ve grup değerlendirme."
+        "meta_title": "Deneme Kulübü | Halkalı Fen Bilimleri",
+        "meta_description": "Haftalık YKS formatında denemeler, net analizi ve grup değerlendirme."
       },
       "rehberlik": {
         "title": "Rehberlik",
@@ -276,27 +250,113 @@
           "Veli raporu",
           "Motivasyon desteği"
         ],
-        "meta_title": "Rehberlik Programı | Zekeriyaköy Fen Bilimleri",
+        "meta_title": "Rehberlik Programı | Halkalı Fen Bilimleri",
         "meta_description": "Kariyer planlaması, sınav kaygısı yönetimi ve motivasyon için birebir rehberlik."
+      },
+      "12-sinif-vip": {
+        "title": "12. Sınıf VIP",
+        "description": "5-8 kişilik VIP sınıflarda haftada 16 saat ders, 45 deneme sınavı ve 40 saat bireysel özel ders.",
+        "hero_quote": "YKS'ye giden bu son dönemde her öğrencimiz ayrı ayrı değerlidir; VIP programımızla farkı hissettiriyoruz.",
+        "intro": "12. Sınıf VIP programımızda sınıf mevcutlarımız 5-8 öğrenci arasında tutulmaktadır. Öğrencilerimiz hafta sonu iki, hafta içi iki gün olmak üzere toplam 16 saat ders görmektedir. Her öğrenci, birebir soru çözüm saatlerinde öğretmeniyle çalışabilmekte; yıl boyunca toplam 40 ders saati bireysel özel ders alabilmektedir.",
+        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla akşam öğretmen gözetiminde kütüphanede ders çalışabilmektedir. Her iki haftada bir TYT ve AYT denemesi yapılmakta; deneme analizleri ile eksiklere yönelik haftalık ders çalışma programları oluşturulmaktadır. Bu programlar eğitim koçları tarafından haftalık kontrol edilerek velilerle paylaşılmaktadır. Yapay zeka destekli eğitim modeliyle bireysel soru bankaları oluşturulmakta, dikkat testleri ve motivasyon çalışmaları uygulanmaktadır. Üniversite gezileri, hedef belirleme etkinlikleri, hızlı okuma teknikleri ile yaz kampı ve ara tatil kampları da programın ayrılmaz parçalarıdır. Kurumsal denemelerimizin yanı sıra Türkiye Geneli Deneme Sınavları ile öğrencilerimiz ulusal sıralamalarını da takip edebilmektedir.",
+        "strategy_title": "VIP 12. Sınıf Eğitim Modeli",
+        "phase1_title": "Küçük Grup & Yoğun Ders",
+        "phase1_text": "5-8 kişilik sınıflarda haftada 16 saat ders. Her öğrenciye birebir ilgi ve yıllık 40 saat bireysel özel ders imkânı.",
+        "phase2_title": "45 Deneme & Yapay Zeka Analizi",
+        "phase2_text": "Yılda 45 TYT-AYT denemesi, Türkiye geneli sıralama ve yapay zeka destekli kişisel soru bankası oluşturma.",
+        "phase3_title": "Rehberlik & Veli Takibi",
+        "phase3_text": "Haftalık bireysel rehberlik, eğitim koçu takibi, üniversite tanıtımı ve düzenli veli bilgilendirmesi.",
+        "result_title": "Hedef",
+        "result_text": "YKS'de hedef puana ulaşmak ve yılın her anını verimli kullanarak tercih edilen üniversitede okuma hakkı kazanmak.",
+        "tech_title": "VIP Program · 16 ders saati/hafta · 45 Deneme",
+        "tech_intro": "Küçük sınıflarda yoğun ders, bireysel özel ders ve yapay zeka destekli analiz bir arada sunulmaktadır.",
+        "tech_tools": "Küçük sınıf (5-8 kişi) · 16 saat/hafta · 45 deneme · 40 saat özel ders",
+        "features": [
+          "Küçük sınıf (5-8 öğrenci)",
+          "16 ders saati/hafta",
+          "45 TYT-AYT denemesi",
+          "40 saat bireysel özel ders",
+          "Kunduz & Baykuş programı",
+          "Yapay zeka destekli analiz"
+        ],
+        "meta_title": "12. Sınıf VIP | Halkalı Fen Bilimleri",
+        "meta_description": "12. Sınıf VIP programı. 5-8 kişilik sınıf, haftada 16 saat ders, 45 deneme ve 40 saat özel ders."
+      },
+      "mezun-vip": {
+        "title": "Mezun VIP",
+        "description": "5-8 kişilik VIP sınıflarda haftada 18 saat ders, haftada 2 deneme ve 40 saat bireysel özel ders.",
+        "hero_quote": "YKS'ye bir yıl daha hazırlanmak yeniden başlamak değil, daha güçlü devam etmektir.",
+        "intro": "Mezun VIP programımızda sınıf mevcutlarımız 5-8 öğrenci arasında tutulmaktadır. Öğrencilerimiz toplam 18 saat ders görmekte; her öğrenci birebir soru çözüm saatlerini öğretmeniyle geçirmekte ve yıl boyunca toplam 40 saat bireysel özel ders alabilmektedir.",
+        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla akşam öğretmen eşliğinde ders çalışabilmektedir. Haftada iki deneme yapılmakta; yapay zeka destekli analiz ile seviyeye uygun kişisel soru bankası oluşturulmaktadır. Haftalık bireysel rehberlik görüşmeleri yapılmakta, eğitim koçları programları kontrol ederek velilere düzenli bilgi vermektedir. Programa Yaz Kampı ile erken başlanmakta; üniversite tanıtımı, motivasyon etkinlikleri, okuduğunu anlama ve hızlı okuma teknikleri ile kamp programları süreç boyunca uygulanmaktadır. VIP sınıflarımızdaki fark, yıl içinde ekstra hizmetlerin ve düşük sınıf mevcudunun sağladığı bireysel dikketle hayata geçmektedir.",
+        "strategy_title": "VIP Mezun Eğitim Modeli",
+        "phase1_title": "Küçük Grup & Yoğun Ders",
+        "phase1_text": "5-8 kişilik sınıflarda haftada 18 saat ders. Yıllık 40 saat bireysel özel ders ve sürekli öğretmen erişimi.",
+        "phase2_title": "Haftada 2 Deneme & Yapay Zeka Analizi",
+        "phase2_text": "Haftada 2 YKS denemesi ve yapay zeka destekli eksik analizi ile öğrenciye özgü soru bankası oluşturma.",
+        "phase3_title": "Rehberlik & Yaz Kampı Başlangıcı",
+        "phase3_text": "Yaz kampıyla erken başlangıç, haftalık bireysel rehberlik, veli takibi ve üniversite tanıtım etkinlikleri.",
+        "result_title": "Hedef",
+        "result_text": "YKS'de hedeflenen puana ulaşmak ve tercih edilen üniversite ile bölümde eğitim hakkı kazanmak.",
+        "tech_title": "VIP Mezun Programı · 18 saat/hafta · Haftada 2 Deneme",
+        "tech_intro": "Küçük sınıflarda yoğun ders, yapay zeka destekli analiz ve Yaz Kampı başlangıcıyla güçlü bir YKS hazırlığı.",
+        "tech_tools": "Küçük sınıf (5-8 kişi) · 18 saat/hafta · Haftada 2 deneme · 40 saat özel ders",
+        "features": [
+          "Küçük sınıf (5-8 öğrenci)",
+          "18 ders saati/hafta",
+          "Haftada 2 deneme",
+          "40 saat bireysel özel ders",
+          "Yapay zeka destekli analiz",
+          "Yaz kampı başlangıcı"
+        ],
+        "meta_title": "Mezun VIP | Halkalı Fen Bilimleri",
+        "meta_description": "Mezun VIP programı. 5-8 kişilik sınıf, haftada 18 saat ders, haftada 2 deneme ve 40 saat özel ders."
+      },
+      "ozel-ders": {
+        "title": "Özel Ders",
+        "description": "Alanında uzman eğitmenlerle tamamen kişiye özel, birebir ders programı.",
+        "hero_quote": "Her öğrenci farklıdır; en büyük gelişim, sana özel hazırlanan programda gizlidir.",
+        "intro": "Öğrencilerimizin ihtiyaçlarına göre birebir rehberlik sağladığımız Özel Ders programımız, akademik başarıyı maksimum düzeye taşımak amacıyla hazırlanmıştır.",
+        "body": "Alanında uzman eğitmenlerimiz, öğrencilerin güçlü ve gelişime açık yönlerini analiz ederek tamamen kişiye özel bir eğitim programı oluşturur. Bu sayede öğrenciler, zorluk yaşadıkları konuları daha iyi kavrama fırsatı bulur ve sınavlarda daha yüksek performans gösterirler.",
+        "strategy_title": "Özel Ders Süreci",
+        "phase1_title": "Seviye & Eksik Analizi",
+        "phase1_text": "Öğrencinin mevcut seviyesi ve eksik konuları belirlenerek kişiye özel bir yol haritası oluşturulur.",
+        "phase2_title": "Kişiye Özel Program",
+        "phase2_text": "Uzman eğitmen, belirlenen eksikliklere yönelik birebir ders planı hazırlar ve öğrenciyle birlikte uygular.",
+        "phase3_title": "Sürekli Takip & Güncelleme",
+        "phase3_text": "Her dersin ardından ilerleme değerlendirilir; program öğrencinin gelişimine göre güncellenerek sürdürülür.",
+        "result_title": "Hedef",
+        "result_text": "Zayıf konuların giderilmesi, sınav performansının artırılması ve hedef puanlara ulaşılması.",
+        "tech_title": "Birebir Özel Ders",
+        "tech_intro": "Tamamen öğrencinin ihtiyaçlarına göre şekillenen, uzman eğitmen eşliğinde kişisel öğrenme deneyimi.",
+        "tech_tools": "Birebir eğitim · Kişiye özel plan · Uzman eğitmen · Sürekli takip",
+        "features": [
+          "Birebir eğitim",
+          "Kişiye özel program",
+          "Uzman eğitmenler",
+          "Eksik konu analizi",
+          "Sürekli takip"
+        ],
+        "meta_title": "Özel Ders | Halkalı Fen Bilimleri",
+        "meta_description": "Birebir özel ders programı. Uzman eğitmenlerle kişiye özel hazırlanmış ders planı."
       }
     }
   },
   "References": {
-    "meta_title": "Başarılarımız | Zekeriyaköy Fen Bilimleri",
-    "meta_description": "LGS ve YKS'de hedef okullarına ulaşan öğrencilerimizin başarı hikayeleri.",
+    "meta_title": "Başarılarımız | Halkalı Fen Bilimleri",
+    "meta_description": "YKS'de hedef üniversitelerine ulaşan öğrencilerimizin başarı hikayeleri.",
     "title": "Başarı Hikayeleri",
     "subtitle": "Öğrencilerimizin gerçek başarıları ilham veriyor."
   },
   "About": {
-    "meta_title": "Hakkımızda | Zekeriyaköy Nazmi Arıkan Fen Bilimleri",
-    "meta_description": "1995'ten bu yana Sarıyer'in köklü eğitim kurumu. Deneyimli öğretmenler, bireysel takip ve kanıtlanmış başarı.",
+    "meta_title": "Hakkımızda | Halkalı Nazmi Arıkan Fen Bilimleri",
+    "meta_description": "1995'ten bu yana köklü eğitim kurumu. Deneyimli öğretmenler, bireysel takip ve kanıtlanmış başarı.",
     "title": "Hakkımızda",
-    "hero_slogan": "Zekeriyaköy'ün köklü eğitim yuvası.",
-    "subtitle": "1995'ten Bu Yana Sarıyer'de Eğitim",
-    "content": "Zekeriyaköy Nazmi Arıkan Fen Bilimleri Dershanesi, 1995 yılında Sarıyer'in eğitime katkı sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef okullarına ulaştırdık.",
+    "hero_slogan": "Halkalı'nın köklü eğitim yuvası.",
+    "subtitle": "1995'ten Bu Yana Halkalı'da Eğitim",
+    "content": "Halkalı Nazmi Arıkan Fen Bilimleri Dershanesi, 1995 yılında bölgedeki öğrencilere kaliteli eğitim sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef üniversitelerine ulaştırdık.",
     "vision": {
       "title": "Vizyon",
-      "text": "Zekeriyaköy ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak."
+      "text": "Halkalı ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak."
     },
     "mission": {
       "title": "Misyon",
@@ -308,8 +368,8 @@
     }
   },
   "Contact": {
-    "meta_title": "İletişim | Zekeriyaköy Fen Bilimleri",
-    "meta_description": "Ücretsiz ön görüşme için bize ulaşın. 0212 201 58 48 — zekeriyakoyfenbilimleri@gmail.com",
+    "meta_title": "İletişim | Halkalı Fen Bilimleri",
+    "meta_description": "Ücretsiz ön görüşme için bize ulaşın. 0(542) 825 08 68 — nazmiarikanfenbilimlerihalkali@gmail.com",
     "title": "İletişim",
     "subtitle": "Sormak istedikleriniz için bize ulaşın. Hemen dönüş yapalım.",
     "form": {
@@ -334,7 +394,7 @@
     }
   },
   "WhyUs": {
-    "title": "Neden Zekeriyaköy Fen Bilimleri?",
+    "title": "Neden Halkalı Fen Bilimleri?",
     "description": "Deneyimli öğretmen kadrosu, bireysel öğrenci takibi, Baykuş Kütüphanesi ve 15 yılı aşkın kanıtlanmış başarıyla fark yaratıyoruz.",
     "cta": "Ücretsiz Ön Görüşme Al"
   },
@@ -355,26 +415,23 @@
     "analysis": "Ücretsiz Ön Görüşme",
     "blog": "Blog",
     "services_items": {
-      "7-sinif": "7. Sınıf",
-      "8-sinif": "8. Sınıf & LGS",
       "10-sinif": "10. Sınıf",
       "11-sinif": "11. Sınıf",
       "12-sinif": "12. Sınıf & YKS",
       "mezun": "Mezun & YKS",
-      "acik-lise": "Açık Lise",
       "deneme-kulubu": "Deneme Kulübü"
     }
   },
   "Footer": {
-    "address": "Uskumruköy, Zekeriyaköy Mah., Kilyos Cad. No: 238/2, Sarıyer / İstanbul",
-    "rights": "© 2026 Zekeriyaköy Fen Bilimleri",
+    "address": "Kent Hastanesi Karşısı, Halkalı Merkez, Fatih Cd. No : 18/1 Kat : 1, 34303 Küçükçekmece/İstanbul",
+    "rights": "© 2026 Halkalı Fen Bilimleri",
     "quick_links": "Hızlı Bağlantılar",
     "social": "Sosyal Medya",
     "contact": "İletişim",
     "pages": "Sayfalar",
-    "brand_tagline": "Zekeriyaköy'den Türkiye'nin en iyi okullarına.",
+    "brand_tagline": "Halkalı'dan Türkiye'nin en iyi üniversitelerine.",
     "rights_suffix": "Tüm hakları saklıdır.",
-    "tagline": "Sarıyer, İstanbul · Fen Bilimleri Dershanesi",
+    "tagline": "Küçükçekmece, İstanbul · Fen Bilimleri Dershanesi",
     "contact_info": "İletişim Bilgileri"
   },
   "Works": {
@@ -423,8 +480,8 @@
     "items": [
       {
         "name": "Ayşe K.",
-        "role": "LGS 500 Net — Fen Lisesi",
-        "text": "8. sınıf boyunca aldığım destekle LGS'de 500 net yaptım. Öğretmenlerimiz gerçekten çok ilgilendi."
+        "role": "YKS — Hacettepe Üniversitesi Tıp",
+        "text": "12. sınıf boyunca aldığım destekle YKS'de hedef puana ulaştım. Öğretmenlerimiz gerçekten çok ilgilendi."
       },
       {
         "name": "Murat T. (Veli)",
@@ -438,13 +495,13 @@
       },
       {
         "name": "Kerem B.",
-        "role": "LGS — Sarıyer Anadolu Lisesi",
-        "text": "7. sınıftan beri buradayım. Deneme Kulübü sayesinde sınav kaygım geçti ve LGS'ye güvenle girdim."
+        "role": "YKS — Boğaziçi Üniversitesi",
+        "text": "11. sınıftan itibaren buradayım. Deneme Kulübü sayesinde sınav kaygım geçti ve YKS'ye güvenle girdim."
       },
       {
         "name": "Zeynep Ö. (Veli)",
-        "role": "Kızı LGS'de Kadıköy Anadolu Lisesi'ne girdi",
-        "text": "Kızım 7. sınıftan itibaren burada. Hem akademik hem de psikolojik destek mükemmeldi."
+        "role": "Kızı YKS ile hedef üniversiteye girdi",
+        "text": "Kızım 10. sınıftan itibaren burada. Hem akademik hem de psikolojik destek mükemmeldi."
       },
       {
         "name": "Emre D.",
@@ -458,8 +515,8 @@
       },
       {
         "name": "Can T.",
-        "role": "LGS — Kabataş Erkek Lisesi",
-        "text": "Deneme sınavlarındaki detaylı analizler sayesinde hangi konularda eksiğim olduğunu gördüm ve kapattım."
+        "role": "YKS — İTÜ İnşaat Mühendisliği",
+        "text": "Deneme sınavlarındaki detaylı analizler sayesinde hangi konularda eksiğim olduğumu gördüm ve kapattım. YKS'de çok iyi sonuç aldım."
       }
     ]
   },
@@ -503,23 +560,20 @@
     "placeholder_email": "ornek@email.com",
     "placeholder_phone": "05XX XXX XX XX",
     "services": [
-      "7. Sınıf",
-      "8. Sınıf & LGS",
       "10. Sınıf",
       "11. Sınıf",
       "12. Sınıf & YKS",
       "Mezun & YKS",
-      "Açık Lise",
       "Deneme Kulübü",
       "Rehberlik"
     ]
   },
   "Blog": {
-    "meta_title": "Eğitim Blogu | Zekeriyaköy Fen Bilimleri",
-    "meta_description": "LGS, YKS ve eğitim hayatı hakkında faydalı yazılar.",
+    "meta_title": "Eğitim Blogu | Halkalı Fen Bilimleri",
+    "meta_description": "YKS, AYT, TYT ve eğitim hayatı hakkında faydalı yazılar.",
     "title_prefix": "Eğitim",
     "title_highlight": "Blogu",
-    "subtitle": "LGS, YKS ve eğitim hayatı hakkında faydalı yazılar.",
+    "subtitle": "YKS, AYT, TYT ve eğitim hayatı hakkında faydalı yazılar.",
     "empty_title": "Henüz yazı yok",
     "empty_subtitle": "Yakında içerikler eklenecek.",
     "recent": "Son Yazılar",
