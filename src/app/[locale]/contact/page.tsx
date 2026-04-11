@@ -60,7 +60,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.address')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed">
-                    Halkalı Merkez, Fatih Cd. No:18, Kat:2 34303 Küçükçekmece/İstanbul, Istanbul, Turkey 34000
+                    Şirinevler, Hürriyet Mahallesi, Mahmutbey Caddesi, No:5, Bahçelievler/İstanbul
                   </p>
                 </div>
               </div>
@@ -72,11 +72,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.phone')}</h3>
                   <div className="space-y-2">
-                    <a href="tel:+905453491774" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
-                      0545 349 17 74
-                    </a>
-                    <a href="tel:+902124953021" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
-                      0212 495 30 21
+                    <a href="tel:+902125517273" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
+                      0 (212) 551 72 73
                     </a>
                   </div>
                 </div>
@@ -88,8 +85,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.email')}</h3>
-                  <a href="mailto:halkalifinaletutmerkezi@abdkurumlari.com" className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
-                    halkalifinaletutmerkezi@abdkurumlari.com
+                  <a href="mailto:sirinevlerfinalozelogretim@abdkurumlari.com" className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
+                    sirinevlerfinalozelogretim@abdkurumlari.com
                   </a>
                 </div>
               </div>

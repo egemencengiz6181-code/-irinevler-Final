@@ -1,12 +1,12 @@
 {
   "Index": {
-    "title": "Halkalı Final LGS Academy | Küçükçekmece Istanbul",
-    "description": "Halkalı Final LGS Academy — Comprehensive middle school and LGS prep programs in Küçükçekmece."
+    "title": "Şirinevler Final Academy | Bahçelievler Istanbul",
+    "description": "Şirinevler Final Academy — Comprehensive high school and YKS university prep programs in Bahçelievler."
   },
   "Hero": {
-    "eyebrow": "Halkalı · Küçükçekmece / Istanbul",
+    "eyebrow": "Şirinevler · Bahçelievler / Istanbul",
     "title": "The Road to Success",
-    "subtitle": "The right place to reach your target high school in LGS.",
+    "subtitle": "The right place to reach your target university in YKS.",
     "headline": "We Chart the Path to Your Goal Together",
     "slogan": "We stand by you with experienced teachers, individual follow-up and proven study programs.",
     "cta": "Explore Programs"
@@ -15,154 +15,202 @@
     "title_prefix": "The road",
     "title_highlight": "to success",
     "title_suffix": "starts here.",
-    "subtitle": "The right place to reach your target high school in LGS. We stand by you with experienced teachers, individual follow-up and proven study programs.",
+    "subtitle": "The right place to reach your target university in YKS. We stand by you with experienced teachers, individual follow-up and proven study programs.",
     "cta": "Register & Get Info"
   },
   "Services": {
-    "meta_title": "Our Programs | Halkalı Final LGS Academy",
-    "meta_description": "Comprehensive and personalized study programs for middle school students, focused on LGS.",
+    "meta_title": "Our Programs | Şirinevler Final Academy",
+    "meta_description": "Comprehensive and personalized study programs for high school students, focused on YKS.",
     "title": "Our Programs",
     "subtitle": "Expertly designed study programs tailored to each student's goal.",
     "cta": "Get Info",
     "back": "All Programs",
-    "discovery_title": "Why Halkalı Final LGS Academy?",
+    "discovery_title": "Why Şirinevler Final Academy?",
     "strategy_section": "Program Details",
     "tech_section": "Publisher & Hours",
     "scope": "Scope",
     "about_suffix": "About",
     "sections": {
-      "ortaokul": "Middle School Program",
-      "lise": "High School Program",
+      "lise": "High School Programs",
+      "mezun": "Graduate Programs",
       "destek": "Support & Analysis",
       "vip": "VIP Programs"
     },
     "items": {
-      "5-sinif": {
-        "title": "5th Grade",
-        "description": "Strong subject foundations. 2 days/weekend, 12 lesson hours/week, study sessions and guidance support.",
-        "hero_quote": "A strong foundation builds a bright future.",
-        "intro": "Our 5th grade program aims to help students build a solid foundation in core subjects and adapt early to the LGS process.",
-        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive 12 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 1 day per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
+      "9-sinif": {
+        "title": "9th Grade",
+        "description": "2 weekend days + 1 weekday. Total 14 lesson hours. Kunduz, Baykuş library, one-on-one Q&A and guidance.",
+        "hero_quote": "A strong foundation at the start of high school is the key to great YKS success.",
+        "intro": "Students attend classes 2 days on weekends (Saturday afternoon/Sunday morning or Saturday morning/Sunday afternoon) and 1 weekday.",
+        "body": "Students attend classes 2 days on weekends (Saturday afternoon/Sunday morning or Saturday morning/Sunday afternoon) and 1 weekday. Total 14 lesson hours. Kunduz program, Baykuş library (09:00-19:00), one-on-one question solving, monthly mock exams and AI-powered analyses. Individual program and tracking by the guidance unit. Exam preparation, motivation and speed reading activities. Summer, mid-term and semester break camps.",
         "strategy_title": "Program Content",
-        "phase1_title": "Core Subjects",
-        "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
-        "phase2_title": "Tests & Evaluation",
-        "phase2_text": "Regular topic tests and assessment exams. Parent information reports.",
-        "phase3_title": "Individual Tracking & Guidance",
-        "phase3_text": "Advisor teacher and guidance unit support that individually monitors each student's development.",
+        "phase1_title": "Core Subjects & Q&A",
+        "phase1_text": "One-on-one question solving and teacher support anytime via the Kunduz program.",
+        "phase2_title": "Mock Exams & Analysis",
+        "phase2_text": "Monthly mock exams and AI-powered analyses for gap identification and personalized question bank creation.",
+        "phase3_title": "Guidance & Camps",
+        "phase3_text": "Individual program and tracking by the guidance unit. Exam preparation, motivation activities. Summer, mid-term and semester break camps.",
         "result_title": "Outcomes",
-        "result_text": "Strong foundational knowledge, exam habits and a ready start toward the LGS process.",
-        "tech_title": "12 lesson hours/week · 2 days/weekend",
-        "tech_intro": "Weekend course (Sat-Sun), 1 weekday study session. Total 12 lesson hours.",
-        "tech_tools": "Subject instruction · Test solving · Study sessions · Guidance",
+        "result_text": "Strong foundational knowledge, exam habits and a ready start toward the YKS process.",
+        "tech_title": "14 lesson hours/week · 2 weekend + 1 weekday",
+        "tech_intro": "2 days on weekends and 1 day on weekdays. Total 14 lesson hours.",
+        "tech_tools": "Kunduz program · Baykuş library · One-on-one Q&A · Guidance",
         "features": [
-          "Subject instruction",
-          "Test solving",
-          "Weekly study sessions",
-          "Guidance unit"
-        ],
-        "meta_title": "5th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with study sessions and guidance for 5th grade students."
-      },
-      "6-sinif": {
-        "title": "6th Grade",
-        "description": "Reinforcing middle school foundations. 2 days/weekend, 12 lesson hours/week, study sessions and guidance support.",
-        "hero_quote": "Every reinforced piece of knowledge brings you one step closer to LGS.",
-        "intro": "Our 6th grade program ensures students deeply grasp the middle school curriculum and transition to 7th grade prepared.",
-        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive 12 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 1 day per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
-        "strategy_title": "Program Content",
-        "phase1_title": "Core Subjects",
-        "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
-        "phase2_title": "Tests & Evaluation",
-        "phase2_text": "Regular topic tests and assessment exams. Parent information reports.",
-        "phase3_title": "Individual Tracking & Guidance",
-        "phase3_text": "Advisor teacher and guidance unit support that individually monitors each student's development.",
-        "result_title": "Outcomes",
-        "result_text": "Strong foundational knowledge, exam habits and a smooth transition to the 7th grade program.",
-        "tech_title": "12 lesson hours/week · 2 days/weekend",
-        "tech_intro": "Weekend course (Sat-Sun), 1 weekday study session. Total 12 lesson hours.",
-        "tech_tools": "Subject instruction · Test solving · Study sessions · Guidance",
-        "features": [
-          "Subject instruction",
-          "Test solving",
-          "Weekly study sessions",
-          "Guidance unit"
-        ],
-        "meta_title": "6th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with study sessions and guidance for 6th grade students."
-      },
-      "7-sinif": {
-        "title": "7th Grade",
-        "description": "Preparation for 8th grade by strengthening middle school foundations. 12 lesson hours per week, individual guidance and one-on-one Q&A.",
-        "hero_quote": "A strong foundation builds a bright future.",
-        "intro": "Our 7th grade program aims to help students build a solid foundation in Math, Science, Turkish and Social Studies.",
-        "body": "Students attend courses 2 days on weekends and 1 day per week on weekdays. They receive 12 lesson hours in total. Question-solving study sessions and one-on-one question-solving are also conducted. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Students participate in weekly individual counseling sessions, personal study schedules are prepared and checked by our guidance unit, with parents informed weekly. Library access is available 7 days a week from 09:00 to 19:00. Professional tests and inventories are applied for each student. Attention tests are conducted and students' psychological and emotional states are added to their files. Each student is given a recognition exam and their level is determined. Individual study programs are prepared by our guidance units for each student. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS adaptation, test technique improvement, improving academic success, LGS mock exams, high school visits, speed reading and comprehension techniques, and attention-improving exercises. Study camps are organized including summer camp, mid-term camp, break camp and semester break camp.",
-        "strategy_title": "Program Content",
-        "phase1_title": "Core Subjects",
-        "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
-        "phase2_title": "Tests & Evaluation",
-        "phase2_text": "Regular topic tests and assessment exams. Parent information reports.",
-        "phase3_title": "Individual Tracking",
-        "phase3_text": "Advisor teacher support that individually monitors each student's development process.",
-        "result_title": "Outcomes",
-        "result_text": "Strong foundational knowledge, exam habits and smooth transition to the 8th grade program.",
-        "tech_title": "12 lesson hours/week · 2 weekend + 1 weekday",
-        "tech_intro": "2 days on weekends and 1 day on weekdays. Total 12 lesson hours. Study sessions and one-on-one Q&A included.",
-        "tech_tools": "Subject instruction · Test solving · Individual guidance · Camp programs",
-        "features": [
-          "Subject instruction",
-          "Test solving",
-          "Individual guidance",
+          "Kunduz program",
+          "Baykuş library (09:00-19:00)",
+          "One-on-one Q&A",
+          "Monthly mock exam",
+          "AI-powered analysis",
+          "Individual guidance & tracking",
           "Camp programs"
         ],
-        "meta_title": "7th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with individual guidance and one-on-one Q&A for 7th grade students."
+        "meta_title": "9th Grade Program | Şirinevler Final Academy",
+        "meta_description": "Comprehensive 14-hour-per-week program with Kunduz, Baykuş library and guidance for 9th grade students."
       },
-      "8-sinif": {
-        "title": "8th Grade & LGS",
-        "description": "Intensive LGS preparation. 12 lesson hours/week, weekly mock exams, AI-powered analysis and individual guidance.",
-        "hero_quote": "With the right strategy and intensive study, your target school is within reach in LGS.",
-        "intro": "Our 8th grade program is a comprehensive LGS-focused preparation process. It familiarizes students with the LGS format, maximizes their net score and closely monitors individual development.",
-        "body": "Students attend 2 days on weekends and 2 days on weekdays. They receive 12 lesson hours in total. Each student can solve questions one-on-one with their teacher. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can reach teachers at any time and place. Students take one mock exam per week. After each mock exam, analyses are conducted and question banks are created based on their level and weak areas. The Baykuş library program allows evening study sessions under teacher supervision. Students participate in weekly individual counseling sessions and personal study schedules are prepared and checked by our guidance unit. Library access is available 7 days a week from 09:00 to 19:00. Motivation activities are conducted to eliminate distractions. LGS mock provizionals are held and AI-powered individual question banks are created. Guidance units prepare and monitor weekly individual programs. Activities include exam preparation, quality high school visits, goal setting, motivation events, reading comprehension and speed reading. Study camps include summer camp, mid-term camp, break camp and semester break camp.",
-        "strategy_title": "LGS Preparation Strategy",
-        "phase1_title": "Topic Reinforcement & Mock Exams",
-        "phase1_text": "Systematic revision of all LGS topics and weekly mock exams to address weak points.",
-        "phase2_title": "AI-Powered Analysis",
-        "phase2_text": "Mock exam analyses and AI-powered individual question bank creation. Bayküş library program.",
-        "phase3_title": "Guidance & Process Management",
-        "phase3_text": "Weekly individual guidance, motivation activities, quality high school introductions and camp programs.",
-        "result_title": "Goal",
-        "result_text": "Achieving a high net score in LGS and placing in a science high school, Anatolian high school or target quality high school.",
-        "tech_title": "12 lesson hours/week · Weekly mock exam · AI Analysis",
-        "tech_intro": "2 days on weekends and 2 days on weekdays. Total 12 lesson hours. Weekly mock exam and AI-powered analysis.",
-        "tech_tools": "LGS topic revision · Weekly mock exam · AI analysis · Individual guidance",
+      "10-sinif": {
+        "title": "10th Grade",
+        "description": "2 weekend days + 1 weekday. Total 14 lesson hours. Kunduz, Baykuş library, one-on-one Q&A and guidance.",
+        "hero_quote": "Every step taken in 10th grade builds the foundation for great YKS success.",
+        "intro": "Students attend classes 2 days on weekends (Saturday afternoon/Sunday morning or Saturday morning/Sunday afternoon) and 1 weekday.",
+        "body": "Students attend classes 2 days on weekends (Saturday afternoon/Sunday morning or Saturday morning/Sunday afternoon) and 1 weekday. Total 14 lesson hours. Kunduz program, Baykuş library (09:00-19:00), one-on-one question solving, monthly mock exams and AI-powered analyses. Individual program and tracking by the guidance unit. Exam preparation, motivation and speed reading activities. Summer, mid-term and semester break camps.",
+        "strategy_title": "Program Content",
+        "phase1_title": "Core Subjects & Q&A",
+        "phase1_text": "One-on-one question solving and teacher support anytime via the Kunduz program.",
+        "phase2_title": "Mock Exams & Analysis",
+        "phase2_text": "Monthly mock exams and AI-powered analyses for gap identification and personalized question bank creation.",
+        "phase3_title": "Guidance & Camps",
+        "phase3_text": "Individual program and tracking by the guidance unit. Exam preparation, motivation activities. Summer, mid-term and semester break camps.",
+        "result_title": "Outcomes",
+        "result_text": "Strong foundational knowledge, exam habits and continued readiness for the YKS process.",
+        "tech_title": "14 lesson hours/week · 2 weekend + 1 weekday",
+        "tech_intro": "2 days on weekends and 1 day on weekdays. Total 14 lesson hours.",
+        "tech_tools": "Kunduz program · Baykuş library · One-on-one Q&A · Guidance",
         "features": [
-          "LGS topic revision",
-          "Weekly mock exam",
-          "AI analysis",
-          "Individual guidance"
+          "Kunduz program",
+          "Baykuş library (09:00-19:00)",
+          "One-on-one Q&A",
+          "Monthly mock exam",
+          "AI-powered analysis",
+          "Individual guidance & tracking",
+          "Camp programs"
         ],
-        "meta_title": "8th Grade & LGS Preparation | Halkalı Final LGS Academy",
-        "meta_description": "Intensive 12-hour-per-week preparation program for LGS with weekly mock exams and AI-powered analysis."
+        "meta_title": "10th Grade Program | Şirinevler Final Academy",
+        "meta_description": "Comprehensive 14-hour-per-week program with Kunduz, Baykuş library and guidance for 10th grade students."
+      },
+      "11-sinif": {
+        "title": "11th Grade",
+        "description": "2 weekend days + 2 weekdays. Total 16 lesson hours. YKS-focused comprehensive prep, individual guidance and university visits.",
+        "hero_quote": "11th grade is the critical year when the building blocks of YKS success are laid.",
+        "intro": "2 weekend days + 2 weekdays. Total 16 lesson hours.",
+        "body": "2 weekend days + 2 weekdays. Total 16 lesson hours. One-on-one question solving, Kunduz, Baykuş library (7 days 09:00-19:00). Weekly individual guidance and parent updates. YKS-focused motivation activities, mock exam rehearsals, AI-powered question bank creation. University visits and introductions. Camps (Summer, mid-term, semester break).",
+        "strategy_title": "Program Content",
+        "phase1_title": "Intensive Lessons & Q&A",
+        "phase1_text": "One-on-one question solving, Kunduz program and Baykuş library (7 days 09:00-19:00) for uninterrupted support.",
+        "phase2_title": "Mock Exams & AI Analysis",
+        "phase2_text": "Mock exam rehearsals and AI-powered question bank creation for gap analysis.",
+        "phase3_title": "Guidance & University Introductions",
+        "phase3_text": "Weekly individual guidance, parent updates, university visits and camp programs.",
+        "result_title": "Goal",
+        "result_text": "Entering YKS with strong preparation and taking solid steps toward the target university.",
+        "tech_title": "16 lesson hours/week · 2 weekend + 2 weekdays",
+        "tech_intro": "2 days on weekends and 2 days on weekdays. Total 16 lesson hours. 7-day library access.",
+        "tech_tools": "One-on-one Q&A · Kunduz · Baykuş library · AI analysis",
+        "features": [
+          "One-on-one Q&A",
+          "Kunduz program",
+          "Baykuş library (7 days 09:00-19:00)",
+          "Weekly individual guidance",
+          "Parent updates",
+          "YKS motivation activities",
+          "Mock exam rehearsals",
+          "AI question bank",
+          "University visits",
+          "Camp programs"
+        ],
+        "meta_title": "11th Grade Program | Şirinevler Final Academy",
+        "meta_description": "Comprehensive 16-hour-per-week YKS-focused program with individual guidance for 11th grade students."
+      },
+      "12-sinif": {
+        "title": "12th Grade",
+        "description": "2 weekend days + 2 weekdays. Total 16 lesson hours. Weekly mock exam and individual guidance.",
+        "hero_quote": "12th grade is the year when goals become reality.",
+        "intro": "2 weekend days + 2 weekdays. Total 16 lesson hours. Weekly mock exams are held.",
+        "body": "2 weekend days + 2 weekdays. Total 16 lesson hours. One-on-one question solving, Kunduz, Baykuş library (7 days 09:00-19:00). Weekly individual guidance and parent updates. YKS-focused motivation activities, mock exam rehearsals, AI-powered question bank creation. University visits and introductions. Camps (Summer, mid-term, semester break). Weekly mock exams are held.",
+        "strategy_title": "Program Content",
+        "phase1_title": "Intensive Lessons & Q&A",
+        "phase1_text": "One-on-one question solving, Kunduz program and Baykuş library (7 days 09:00-19:00) for uninterrupted support.",
+        "phase2_title": "Weekly Mock Exams & Analysis",
+        "phase2_text": "Weekly mock exams and AI-powered question bank creation for gap analysis.",
+        "phase3_title": "Guidance & University Introductions",
+        "phase3_text": "Weekly individual guidance, parent updates, university visits and camp programs.",
+        "result_title": "Goal",
+        "result_text": "Achieving a high YKS score and placing in the target university and department.",
+        "tech_title": "16 lesson hours/week · Weekly mock exam · AI Analysis",
+        "tech_intro": "2 days on weekends and 2 days on weekdays. Total 16 lesson hours. Weekly mock exam and AI-powered analysis.",
+        "tech_tools": "One-on-one Q&A · Kunduz · Baykuş library · Weekly mock exam",
+        "features": [
+          "One-on-one Q&A",
+          "Kunduz program",
+          "Baykuş library (7 days 09:00-19:00)",
+          "Weekly individual guidance",
+          "Parent updates",
+          "Weekly mock exam",
+          "AI question bank",
+          "University visits",
+          "Camp programs"
+        ],
+        "meta_title": "12th Grade Program | Şirinevler Final Academy",
+        "meta_description": "12th grade YKS prep program with 16 lesson hours/week, weekly mock exams and individual guidance."
+      },
+      "mezun": {
+        "title": "Graduate",
+        "description": "4 weekdays. Total 20 lesson hours. Weekly mock exam, AI-analyzed question bank and individual guidance.",
+        "hero_quote": "Preparing for YKS one more year is not starting over — it is continuing stronger.",
+        "intro": "4 weekdays. Total 20 lesson hours.",
+        "body": "4 weekdays. Total 20 lesson hours. One-on-one question solving, Kunduz, weekly mock exam and AI-analyzed question bank. Baykuş library (7 days 09:00-19:00). Weekly individual guidance and parent tracking. YKS-focused camps and motivation activities.",
+        "strategy_title": "Graduate Program Content",
+        "phase1_title": "Intensive Lessons & Q&A",
+        "phase1_text": "One-on-one question solving, Kunduz program and Baykuş library (7 days 09:00-19:00) for uninterrupted support.",
+        "phase2_title": "Weekly Mock Exams & AI Analysis",
+        "phase2_text": "Weekly mock exams and AI-analyzed question bank for gap identification and resolution.",
+        "phase3_title": "Guidance & Camps",
+        "phase3_text": "Weekly individual guidance, parent tracking and YKS-focused camp programs.",
+        "result_title": "Goal",
+        "result_text": "Achieve the target YKS score and secure admission to the desired university and department.",
+        "tech_title": "20 lesson hours/week · Weekly mock exam · AI Analysis",
+        "tech_intro": "4 weekdays. Total 20 lesson hours. Weekly mock exam and AI-analyzed question bank.",
+        "tech_tools": "One-on-one Q&A · Kunduz · Baykuş library · Weekly mock exam",
+        "features": [
+          "One-on-one Q&A",
+          "Kunduz program",
+          "Weekly mock exam",
+          "AI-analyzed question bank",
+          "Baykuş library (7 days 09:00-19:00)",
+          "Weekly individual guidance",
+          "Parent tracking",
+          "YKS-focused camps"
+        ],
+        "meta_title": "Graduate Program | Şirinevler Final Academy",
+        "meta_description": "Graduate YKS prep program with 20 lesson hours/week, weekly mock exams and AI-powered analysis."
       },
 
       "deneme-kulubu": {
         "title": "Mock Exam Club",
-        "description": "Regular LGS mock exams, net analysis and peer learning. Open to all grade levels.",
+        "description": "Regular YKS mock exams, net analysis and peer learning. Open to all grade levels.",
         "hero_quote": "Every mock exam takes you one step forward.",
-        "intro": "The Mock Exam Club aims to provide regular exam experience to all middle school grade students. Weekly LGS format mock exams and detailed net analysis.",
+        "intro": "The Mock Exam Club aims to provide regular exam experience to all students. Weekly YKS format mock exams and detailed net analysis.",
         "body": "Students continuously improve through group evaluation sessions and peer learning.",
         "strategy_title": "Mock Exam Club Program",
-        "phase1_title": "Weekly LGS Mock Exams",
-        "phase1_text": "Full weekly mock exams in LGS format. Practice under real exam conditions.",
+        "phase1_title": "Weekly YKS Mock Exams",
+        "phase1_text": "Full weekly mock exams in YKS format. Practice under real exam conditions.",
         "phase2_title": "Net Analysis",
         "phase2_text": "Topic-based net analysis after mock exams, individual review of incorrectly answered questions.",
         "phase3_title": "Group Evaluation",
         "phase3_text": "Group sessions where students evaluate together and peer learning.",
         "result_title": "Outcome",
         "result_text": "Continuously increasing net score, exam habits and strengthened confidence.",
-        "tech_title": "LGS Format · Weekly mock + analysis",
-        "tech_intro": "Weekly mock exams in LGS format. Analysis sessions included.",
+        "tech_title": "YKS Format · Weekly mock + analysis",
+        "tech_intro": "Weekly mock exams in YKS format. Analysis sessions included.",
         "tech_tools": "Weekly mock exam · Net analysis · Group evaluation · Progress tracking",
         "features": [
           "Weekly mock exam",
@@ -170,8 +218,8 @@
           "Group evaluation",
           "Progress tracking"
         ],
-        "meta_title": "Mock Exam Club | Halkalı Final LGS Academy",
-        "meta_description": "Weekly LGS format mock exams, net analysis and group evaluation."
+        "meta_title": "Mock Exam Club | Şirinevler Final Academy",
+        "meta_description": "Weekly YKS format mock exams, net analysis and group evaluation."
       },
       "rehberlik": {
         "title": "Guidance",
@@ -197,66 +245,95 @@
           "Parent report",
           "Motivational support"
         ],
-        "meta_title": "Guidance Program | Halkalı Final LGS Academy",
+        "meta_title": "Guidance Program | Şirinevler Final Academy",
         "meta_description": "One-on-one guidance for career planning, exam anxiety management and motivation."
       },
       "12-sinif-vip": {
         "title": "12th Grade VIP",
-        "description": "VIP classes of 5-8 students, 16 lesson hours/week, 45 mock exams and 40 hours of individual tutoring.",
-        "hero_quote": "In this final year before YKS, every student deserves individual attention – our VIP program delivers exactly that.",
-        "intro": "Our 12th Grade VIP program keeps class sizes between 5-8 students. Students attend a total of 16 lesson hours per week (two days on weekends, two days on weekdays). Each student can solve questions one-on-one with their teacher and receive up to 40 individual tutoring hours throughout the year.",
-        "body": "Through the Kunduz program, students can ask teachers questions anytime and anywhere. The Baykuş library program allows evening study sessions under teacher supervision. Mock exams are held every two weeks, and personalized study schedules targeting weak areas are prepared from analyses. Education coaches monitor these schedules weekly and share updates with parents. AI-powered individual question banks are created, and motivation workshops and concentration tests are applied regularly. University visits, goal-setting sessions, speed reading techniques, summer camps and mid-term camps are all integral parts of the program.",
+        "description": "16 lesson hours, 40 hours of private tutoring, 2 mock exams per week. Low class sizes with VIP class advantage.",
+        "hero_quote": "In this final year before YKS, every student deserves individual attention — our VIP program delivers exactly that.",
+        "intro": "2 weekend days + 2 weekdays. Total 16 lesson hours. 40 hours of private tutoring entitlement.",
+        "body": "2 weekend days + 2 weekdays. Total 16 lesson hours. 40 hours of private tutoring entitlement. 2 mock exams per week and AI-powered analysis. VIP class advantage: Premium services and low class sizes. One-on-one question solving, Kunduz, Baykuş library (7 days 09:00-19:00). Weekly individual guidance and parent updates. YKS-focused motivation activities, mock exam rehearsals, AI-powered question bank creation. University visits and introductions. Camps (Summer, mid-term, semester break).",
         "strategy_title": "VIP 12th Grade Learning Model",
         "phase1_title": "Small Group & Intensive Lessons",
-        "phase1_text": "16 lesson hours/week in classes of 5-8 students. Individual attention guaranteed with up to 40 hours of personal tutoring per year.",
-        "phase2_title": "45 Mock Exams & AI Analysis",
-        "phase2_text": "45 TYT-AYT mock exams per year, national ranking results and AI-powered personal question bank creation.",
+        "phase1_text": "Low class sizes with 16 lesson hours/week. Individual attention and 40 hours of private tutoring per year.",
+        "phase2_title": "2 Mock Exams/Week & AI Analysis",
+        "phase2_text": "2 YKS mock exams per week and AI-powered personal question bank creation.",
         "phase3_title": "Guidance & Parent Tracking",
-        "phase3_text": "Weekly individual counseling, education coach monitoring, university introductions and regular parent updates.",
+        "phase3_text": "Weekly individual guidance, university introductions and regular parent updates.",
         "result_title": "Goal",
-        "result_text": "Reaching the target score in YKS and securing a place at the desired university by making the most of every moment throughout the year.",
-        "tech_title": "VIP Program · 16 lesson hours/week · 45 Mock Exams",
-        "tech_intro": "Intensive lessons in small classes, individual tutoring and AI-powered analysis offered together.",
-        "tech_tools": "Small class (5-8 students) · 16 hours/week · 45 mock exams · 40 hours tutoring",
+        "result_text": "Reaching the target score in YKS and securing a place at the desired university.",
+        "tech_title": "VIP Program · 16 lesson hours/week · 2 Mock Exams/Week",
+        "tech_intro": "Low class sizes with intensive lessons, private tutoring and AI-powered analysis offered together.",
+        "tech_tools": "Low class sizes · 16 hours/week · 2 mock exams/week · 40 hours tutoring",
         "features": [
-          "Small class (5-8 students)",
+          "Low class sizes",
           "16 lesson hours/week",
-          "45 TYT-AYT mock exams",
-          "40 hours of individual tutoring",
+          "2 YKS mock exams/week",
+          "40 hours private tutoring",
           "Kunduz & Baykuş programs",
           "AI-powered analysis"
         ],
-        "meta_title": "12th Grade VIP | Halkalı Final LGS Academy",
-        "meta_description": "12th Grade VIP program. 5-8 students per class, 16 hours/week, 45 mock exams and 40 hours of tutoring."
+        "meta_title": "12th Grade VIP | Şirinevler Final Academy",
+        "meta_description": "12th Grade VIP program. Low class sizes, 16 hours/week, 2 mock exams per week and 40 hours tutoring."
       },
       "mezun-vip": {
         "title": "Graduate VIP",
-        "description": "VIP classes of 5-8 students, 18 lesson hours/week, 2 mock exams per week and 40 hours of individual tutoring.",
-        "hero_quote": "Preparing for YKS one more year is not starting over – it is continuing stronger.",
-        "intro": "Our Graduate VIP program keeps class sizes between 5-8 students. Students receive a total of 18 lesson hours per week, take individual question-solving sessions with their teachers, and can access up to 40 individual tutoring hours throughout the year.",
-        "body": "Through the Kunduz program, students can reach teachers at any time and place. The Baykuş library program allows evening study under teacher supervision. Two mock exams are held per week, and AI-powered analyses create personalized question banks tailored to each student's level and weak areas. Weekly individual counseling sessions are conducted, coaches monitor programs and update parents regularly. The program begins with a Summer Camp for an early start, and university introduction events, motivation activities and camp programs are conducted throughout the year.",
+        "description": "8-10 student classes. Total 20 lesson hours, 40 hours of private tutoring and 2 mock exams per week.",
+        "hero_quote": "Preparing for YKS one more year is not starting over — it is continuing stronger.",
+        "intro": "8-10 student classes. Total 20 lesson hours. 40 hours of private tutoring entitlement.",
+        "body": "8-10 student classes. Total 20 lesson hours. 40 hours of private tutoring entitlement. 2 mock exams per week. One-on-one question solving, Kunduz, weekly mock exam and AI-analyzed question bank. Baykuş library (7 days 09:00-19:00). Weekly individual guidance and parent tracking. YKS-focused camps and motivation activities.",
         "strategy_title": "VIP Graduate Learning Model",
         "phase1_title": "Small Group & Intensive Lessons",
-        "phase1_text": "18 lesson hours/week in classes of 5-8 students. Up to 40 hours of individual tutoring and continuous teacher access.",
+        "phase1_text": "20 lesson hours/week in 8-10 student classes. 40 hours of private tutoring and continuous teacher access.",
         "phase2_title": "2 Mock Exams/Week & AI Analysis",
-        "phase2_text": "2 YKS mock exams per week with AI-powered weak area analysis and student-specific question bank creation.",
-        "phase3_title": "Guidance & Summer Camp Start",
-        "phase3_text": "Early start with a Summer Camp, weekly individual counseling, parent tracking and university introduction events.",
+        "phase2_text": "2 YKS mock exams per week with AI-powered gap analysis and student-specific question bank creation.",
+        "phase3_title": "Guidance & Parent Tracking",
+        "phase3_text": "Weekly individual guidance, parent tracking and YKS-focused camp programs.",
         "result_title": "Goal",
         "result_text": "Achieve the target YKS score and secure admission to the desired university and department.",
-        "tech_title": "VIP Graduate Program · 18 lesson hours/week · 2 Mock Exams/Week",
-        "tech_intro": "Intensive lessons in small classes, AI-powered analysis and Summer Camp kickoff for a strong YKS preparation.",
-        "tech_tools": "Small class (5-8 students) · 18 hours/week · 2 mock exams/week · 40 hours tutoring",
+        "tech_title": "VIP Graduate Program · 20 hours/week · 2 Mock Exams/Week",
+        "tech_intro": "Intensive lessons in small classes, AI-powered analysis for a strong YKS preparation.",
+        "tech_tools": "Small class (8-10 students) · 20 hours/week · 2 mock exams/week · 40 hours tutoring",
         "features": [
-          "Small class (5-8 students)",
-          "18 lesson hours/week",
-          "2 mock exams per week",
-          "40 hours individual tutoring",
-          "AI-powered analysis",
-          "Summer camp kickoff"
+          "Small class (8-10 students)",
+          "20 lesson hours/week",
+          "2 mock exams/week",
+          "40 hours private tutoring",
+          "AI-analyzed question bank",
+          "Baykuş library (7 days 09:00-19:00)"
         ],
-        "meta_title": "Graduate VIP | Halkalı Final LGS Academy",
-        "meta_description": "Graduate VIP program. 5-8 students per class, 18 hours/week, 2 mock exams per week and 40 hours of tutoring."
+        "meta_title": "Graduate VIP | Şirinevler Final Academy",
+        "meta_description": "Graduate VIP program. 8-10 students per class, 20 hours/week, 2 mock exams/week and 40 hours tutoring."
+      },
+      "acik-lise": {
+        "title": "Open High School Academy",
+        "description": "Same program as graduate groups during 12th graders' transition to open high school. 7-day library access.",
+        "hero_quote": "For open high school students, all time is spent here — just like attending school.",
+        "intro": "During the transition period of 12th graders to open high school, the same program as graduate groups is applied.",
+        "body": "During the transition period of 12th graders to open high school, the same program as graduate groups is applied. Weekday classes, weekend library. All time is spent here just like attending school. 7-day library access (09:00-19:00).",
+        "strategy_title": "Program Content",
+        "phase1_title": "Weekday Classes",
+        "phase1_text": "Same lesson program as graduate groups. Weekday classes and one-on-one question solving.",
+        "phase2_title": "7-Day Library Access",
+        "phase2_text": "Study at the Baykuş library 7 days a week from 09:00 to 19:00. Weekend library access.",
+        "phase3_title": "Full-Day Learning Environment",
+        "phase3_text": "All time is spent here just like attending school. Same guidance and tracking system as graduate groups.",
+        "result_title": "Goal",
+        "result_text": "Achieve the target YKS score and secure admission to the desired university.",
+        "tech_title": "Weekday classes · Weekend library · 7 days 09:00-19:00",
+        "tech_intro": "Same program as graduate groups. Weekday classes, weekend library. Full-day learning environment.",
+        "tech_tools": "Graduate group program · 7-day library · One-on-one Q&A · Guidance",
+        "features": [
+          "Same program as graduate group",
+          "Weekday classes",
+          "7-day library (09:00-19:00)",
+          "Weekend library",
+          "One-on-one Q&A",
+          "Guidance & tracking"
+        ],
+        "meta_title": "Open High School Academy | Şirinevler Final Academy",
+        "meta_description": "Graduate group program for open high school students, 7-day library access and full-day learning environment."
       },
       "ozel-ders": {
         "title": "Private Tutoring",
@@ -283,27 +360,27 @@
           "Gap analysis",
           "Continuous tracking"
         ],
-        "meta_title": "Private Tutoring | Halkalı Final LGS Academy",
+        "meta_title": "Private Tutoring | Şirinevler Final Academy",
         "meta_description": "One-on-one private tutoring program. Personalized lesson plans with expert instructors."
       }
     }
   },
   "References": {
-    "meta_title": "Our Success Stories | Halkalı Final LGS Academy",
-    "meta_description": "Success stories of our students who reached their target high schools in LGS.",
+    "meta_title": "Our Success Stories | Şirinevler Final Academy",
+    "meta_description": "Success stories of our students who reached their target universities in YKS.",
     "title": "Success Stories",
     "subtitle": "The real achievements of our students are inspiring."
   },
   "About": {
-    "meta_title": "About Us | Halkalı Final LGS Academy",
-    "meta_description": "A well-established educational institution. Experienced teachers, individual tracking and proven LGS results.",
+    "meta_title": "About Us | Şirinevler Final Academy",
+    "meta_description": "A well-established educational institution. Experienced teachers, individual tracking and proven YKS results.",
     "title": "About Us",
-    "hero_slogan": "Halkalı's well-established educational home.",
-    "subtitle": "LGS Education in Halkalı",
-    "content": "Halkalı Final LGS Academy was founded with the aim of providing quality LGS preparation education to students in the region. Over the years, we have helped thousands of students reach their target high schools.",
+    "hero_slogan": "Şirinevler's well-established educational home.",
+    "subtitle": "YKS Education in Şirinevler",
+    "content": "Şirinevler Final Academy was founded with the aim of providing quality YKS preparation education to students in the region. Over the years, we have helped thousands of students reach their target universities.",
     "vision": {
       "title": "Vision",
-      "text": "To be a trusted educational home where students in Halkalı and surrounding areas can access quality education in the easiest and most effective way."
+      "text": "To be a trusted educational home where students in Şirinevler and surrounding areas can access quality education in the easiest and most effective way."
     },
     "mission": {
       "title": "Mission",
@@ -315,8 +392,8 @@
     }
   },
   "Contact": {
-    "meta_title": "Contact | Halkalı Final LGS Academy",
-    "meta_description": "Contact us for a free consultation. 0545 349 17 74",
+    "meta_title": "Contact | Şirinevler Final Academy",
+    "meta_description": "Contact us for a free consultation. 0 (212) 551 72 73 — sirinevlerfinalozelogretim@abdkurumlari.com",
     "title": "Contact",
     "subtitle": "Reach out for any questions. We'll get back to you right away.",
     "form": {
@@ -341,8 +418,8 @@
     }
   },
   "WhyUs": {
-    "title": "Why Halkalı Final LGS Academy?",
-    "description": "We make a difference with an experienced teaching staff, individual student tracking, the Bayküş Library and proven LGS success.",
+    "title": "Why Şirinevler Final Academy?",
+    "description": "We make a difference with an experienced teaching staff, individual student tracking, the Baykuş Library and proven YKS success.",
     "cta": "Get a Free Consultation"
   },
   "LetsWork": {
@@ -362,23 +439,28 @@
     "analysis": "Free Consultation",
     "blog": "Blog",
     "services_items": {
-      "5-sinif": "5th Grade",
-      "6-sinif": "6th Grade",
-      "7-sinif": "7th Grade",
-      "8-sinif": "8th Grade & LGS",
+      "9-sinif": "9th Grade",
+      "10-sinif": "10th Grade",
+      "11-sinif": "11th Grade",
+      "12-sinif": "12th Grade",
+      "mezun": "Graduate",
+      "12-sinif-vip": "12th Grade VIP",
+      "mezun-vip": "Graduate VIP",
+      "acik-lise": "Open High School",
+      "ozel-ders": "Private Tutoring",
       "deneme-kulubu": "Mock Exam Club"
     }
   },
   "Footer": {
-    "address": "Halkalı Merkez, Fatih Cd. No:18, Kat:2 34303 Küçükçekmece/Istanbul, Istanbul, Turkey 34000",
-    "rights": "© 2026 Halkalı Final LGS Academy",
+    "address": "Şirinevler, Hürriyet Mahallesi, Mahmutbey Caddesi, No:5, Bahçelievler/İstanbul",
+    "rights": "© 2026 Şirinevler Final Academy",
     "quick_links": "Quick Links",
     "social": "Social Media",
     "contact": "Contact",
     "pages": "Pages",
-    "brand_tagline": "From Halkalı to Turkey's best quality high schools.",
+    "brand_tagline": "From Şirinevler to Turkey's best universities.",
     "rights_suffix": "All rights reserved.",
-    "tagline": "Küçükçekmece, Istanbul · LGS Academy",
+    "tagline": "Bahçelievler, Istanbul · YKS Academy",
     "contact_info": "Contact Information"
   },
   "Works": {
@@ -427,43 +509,43 @@
     "items": [
       {
         "name": "Elif K.",
-        "role": "LGS — Galatasaray High School",
-        "text": "With the support I received throughout 8th grade, I reached my target score in LGS. Our teachers were truly very attentive."
+        "role": "YKS — Boğaziçi University / Computer Engineering",
+        "text": "With the support I received throughout 12th grade, I reached my target score in YKS. Our teachers were truly very attentive."
       },
       {
-        "name": "Mehmet T. (Parent)",
-        "role": "Child studying at a science high school via LGS",
-        "text": "My son studied here in 7th and 8th grade and won a place at İstanbul Erkek Lisesi. We were amazed by the individual attention."
+        "name": "Yusuf E. (Parent)",
+        "role": "Son will study medicine via YKS",
+        "text": "My son studied here and won a place at Cerrahpaşa Medical Faculty. We were amazed by the individual attention."
       },
       {
-        "name": "Selin A.",
-        "role": "LGS — Kabataş Erkek Lisesi",
-        "text": "Thanks to the Mock Exam Club, my exam anxiety went away and I entered LGS with confidence. The guidance service was invaluable."
+        "name": "Selin T.",
+        "role": "YKS — Bahçeşehir University / Pilotage (Full Scholarship)",
+        "text": "Thanks to the Mock Exam Club, my exam anxiety went away and I entered YKS with confidence. The guidance service was invaluable."
       },
       {
-        "name": "Kerem B.",
-        "role": "LGS — Cağaloğlu Anadolu Lisesi",
-        "text": "I've been here since 7th grade. Thanks to the weekly mock exams and individual analysis, I felt ready for LGS."
+        "name": "Kerem A.",
+        "role": "YKS — İTÜ / Software Engineering",
+        "text": "Thanks to the weekly mock exams and individual analysis, I felt ready for YKS. It was a wonderful process."
       },
       {
-        "name": "Zeynep Ö. (Parent)",
-        "role": "Daughter placed at her target high school via LGS",
-        "text": "My daughter has been here since 6th grade. Both academic and psychological support were excellent."
+        "name": "Zeynep B. (Parent)",
+        "role": "Daughter won Koç University Law via YKS",
+        "text": "My daughter prepared here. Both academic and psychological support were excellent."
       },
       {
-        "name": "Emre D.",
-        "role": "LGS — Ankara Fen Lisesi",
-        "text": "I joined the program in 8th grade. Thanks to the intensive schedule and personalized lessons, I got into my target high school."
+        "name": "Arda Y.",
+        "role": "YKS — METU / Aerospace Engineering",
+        "text": "I joined the program. Thanks to the intensive schedule and personalized lessons, I got into my target university."
       },
       {
-        "name": "Neslihan A. (Parent)",
-        "role": "Son studying at a quality high school via LGS",
-        "text": "The teachers' individual attention to each student amazed us. My son gained confidence in a very short time."
+        "name": "Melis G. (Parent)",
+        "role": "Daughter studying at Hacettepe Medical via YKS",
+        "text": "The teachers' individual attention to each student amazed us. My daughter gained confidence in a very short time."
       },
       {
-        "name": "Can T.",
-        "role": "LGS — İstanbul Fen Lisesi",
-        "text": "The detailed mock exam analyses helped me identify and close the gaps in my knowledge. I got a great result in LGS."
+        "name": "Can S.",
+        "role": "YKS — Galatasaray University / Business",
+        "text": "The detailed mock exam analyses helped me identify and close the gaps in my knowledge. I got a great result in YKS."
       }
     ]
   },
@@ -485,9 +567,9 @@
     "field_email": "Email",
     "field_phone": "Phone",
     "field_sector": "Grade / Level",
-    "field_sector_placeholder": "7th Grade, 8th Grade, 12th Grade...",
+    "field_sector_placeholder": "9th Grade, 11th Grade, 12th Grade...",
     "field_project_details": "Goals & Expectations",
-    "field_project_placeholder": "Your target school, expectations...",
+    "field_project_placeholder": "Your target university, expectations...",
     "field_services": "Program of Interest",
     "summary_label": "Summary",
     "summary_existing": "Continuing",
@@ -507,25 +589,30 @@
     "placeholder_email": "example@email.com",
     "placeholder_phone": "05XX XXX XX XX",
     "services": [
-      "5th Grade",
-      "6th Grade",
-      "7th Grade",
-      "8th Grade & LGS",
+      "9th Grade",
+      "10th Grade",
+      "11th Grade",
+      "12th Grade",
+      "Graduate",
+      "12th Grade VIP",
+      "Graduate VIP",
+      "Open High School",
+      "Private Tutoring",
       "Mock Exam Club",
       "Guidance"
     ]
   },
   "Blog": {
-    "meta_title": "Education Blog | Halkalı Final LGS Academy",
-    "meta_description": "Useful articles on LGS and middle school life.",
+    "meta_title": "Education Blog | Şirinevler Final Academy",
+    "meta_description": "Useful articles on YKS and high school education.",
     "title_prefix": "Education",
     "title_highlight": "Blog",
-    "subtitle": "Useful articles on LGS and middle school life.",
+    "subtitle": "Useful articles on YKS and high school education.",
     "empty_title": "No posts yet",
     "empty_subtitle": "Content coming soon.",
     "recent": "Recent Posts",
     "categories": {
-      "lgs": "LGS",
+      "yks": "YKS",
       "yks": "YKS",
       "tips": "Study Tips",
       "motivation": "Motivation"

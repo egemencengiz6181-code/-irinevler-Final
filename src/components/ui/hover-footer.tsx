@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import { Link } from "@/navigation";
-import { Instagram, Mail, MapPin, Phone, ExternalLink } from "lucide-react";
+import { Mail, MapPin, Phone, ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
@@ -114,9 +114,7 @@ export default function HoverFooter() {
     { name: nt("contact"), href: "/contact" },
   ];
 
-  const socialLinks = [
-    { icon: <Instagram className="w-4 h-4" />, href: "https://www.instagram.com/halkalifinal_lgs", label: "Instagram" },
-  ];
+  const socialLinks: { icon: React.ReactNode; href: string; label: string }[] = [];
 
   return (
     <footer className="relative overflow-hidden border-t border-black/5 dark:border-white/5 bg-transparent">
@@ -133,7 +131,7 @@ export default function HoverFooter() {
             <Link href="/" className="inline-block pointer-events-auto">
               <Image
                 src="/logos/final%20logo%20png.png"
-                alt="Halkalı Final LGS Dershanesi"
+                alt="Şirinevler Final Dershanesi"
                 width={180}
                 height={60}
                 className="h-16 w-auto object-contain"
@@ -181,21 +179,15 @@ export default function HoverFooter() {
             <p className="text-xs font-bold uppercase tracking-[0.25em] text-slate-400 dark:text-white/25">{ft('contact')}</p>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:halkalifinaletutmerkezi@abdkurumlari.com" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors group pointer-events-auto">
+                <a href="mailto:sirinevlerfinalozelogretim@abdkurumlari.com" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors group pointer-events-auto">
                   <Mail className="w-4 h-4 text-[#E21F26] shrink-0" />
-                  halkalifinaletutmerkezi@abdkurumlari.com
+                  sirinevlerfinalozelogretim@abdkurumlari.com
                 </a>
               </li>
               <li>
-                <a href="tel:+905453491774" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors pointer-events-auto">
+                <a href="tel:+902125517273" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors pointer-events-auto">
                   <Phone className="w-4 h-4 text-[#E21F26] shrink-0" />
-                  0545 349 17 74
-                </a>
-              </li>
-              <li>
-                <a href="tel:+902124953021" className="flex items-center gap-3 text-sm text-slate-500 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors pointer-events-auto">
-                  <Phone className="w-4 h-4 text-[#E21F26] shrink-0" />
-                  0212 495 30 21
+                  0 (212) 551 72 73
                 </a>
               </li>
               <li className="flex items-start gap-3 text-sm text-slate-500 dark:text-white/40">
@@ -208,13 +200,13 @@ export default function HoverFooter() {
 
         {/* TextHoverEffect */}
         <div className="py-8 -mx-6 px-6 overflow-hidden">
-          <TextHoverEffect text="FINAL LGS" />
+          <TextHoverEffect text="FINAL YKS" />
         </div>
 
         {/* Bottom bar */}
         <div className="pt-6 border-t border-black/5 dark:border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-400 dark:text-white/20">
-            © {new Date().getFullYear()} Halkalı Final LGS Dershanesi. {ft('rights_suffix')}
+            © {new Date().getFullYear()} Şirinevler Final Dershanesi. {ft('rights_suffix')}
           </p>
           <p className="text-xs text-slate-400 dark:text-white/20">
             {ft('tagline')}

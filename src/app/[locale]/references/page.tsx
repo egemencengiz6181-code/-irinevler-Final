@@ -4,22 +4,22 @@ import ReferencesMarquee from '@/components/sections/ReferencesMarquee';
 type Student = {
   name: string;
   achievement: string;
-  exam: 'LGS' | 'LGS_RANK';
+  exam: 'YKS' | 'YKS_RANK';
 };
 
 const students: Student[] = [
-  { name: 'Elif K.',   achievement: 'LGS — Galatasaray Lisesi',      exam: 'LGS' },
-  { name: 'Kerem A.', achievement: "LGS %0.01'lik Dilim",            exam: 'LGS_RANK' },
-  { name: 'Selin T.', achievement: 'LGS — İstanbul Erkek Lisesi',    exam: 'LGS' },
-  { name: 'Mert Ö.',  achievement: 'LGS TR 89.',                     exam: 'LGS_RANK' },
-  { name: 'Zeynep B.', achievement: 'LGS — Kabataş Erkek Lisesi',    exam: 'LGS' },
-  { name: 'Arda Y.',  achievement: "LGS %0.05'lik Dilim",            exam: 'LGS_RANK' },
-  { name: 'Melis G.', achievement: 'LGS — Cağaloğlu Anadolu Lisesi', exam: 'LGS' },
-  { name: 'Can S.',   achievement: 'LGS TR 45.',                     exam: 'LGS_RANK' },
+  { name: 'Yusuf E.',   achievement: 'YKS — Cerrahpaşa Tıp',           exam: 'YKS' },
+  { name: 'Elif K.',    achievement: 'YKS TR 156.',                     exam: 'YKS_RANK' },
+  { name: 'Arda Y.',    achievement: 'YKS — ODTÜ Havacılık Uzay',      exam: 'YKS' },
+  { name: 'Zeynep B.',  achievement: 'YKS — Koç Hukuk (Burslu)',        exam: 'YKS_RANK' },
+  { name: 'Kerem A.',   achievement: 'YKS — İTÜ Yazılım Müh.',        exam: 'YKS' },
+  { name: 'Melis G.',   achievement: 'YKS TR 415.',                     exam: 'YKS_RANK' },
+  { name: 'Can S.',     achievement: 'YKS — Galatasaray İşletme',      exam: 'YKS' },
+  { name: 'Selin T.',   achievement: 'YKS — Pilotaj (Burslu)',          exam: 'YKS_RANK' },
 ];
 
 function AchievementCard({ name, achievement, exam }: Student) {
-  const isRank = exam === 'LGS_RANK';
+  const isRank = exam === 'YKS_RANK';
   return (
     <div className="group relative rounded-2xl p-px overflow-hidden">
       {/* Gradient border layer */}
@@ -39,7 +39,7 @@ function AchievementCard({ name, achievement, exam }: Student) {
               : 'bg-[#E21F26]/10 text-[#E21F26] dark:bg-[#E21F26]/20 dark:text-[#EF8487]'
           }`}
         >
-          LGS
+          YKS
         </span>
         <p className="text-xl md:text-2xl font-black text-foreground leading-tight">
           {achievement}
