@@ -118,7 +118,7 @@ export default function Navbar() {
       <div className="pointer-events-auto w-[200px] md:w-[260px] flex items-center">
         <Link href="/" className="flex items-center">
           <Image 
-                      src="/logos/final%20logo%20png.png" 
+                      src="/logos/final-logo.png" 
             alt="Şirinevler Final Dershanesi" 
             width={240} 
             height={240} 
@@ -272,7 +272,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between px-6 py-5 border-b border-black/10 dark:border-white/10">
             <Link href="/" onClick={() => setIsMobileOpen(false)}>
               <Image
-                src="/logos/final%20logo%20png.png"
+                src="/logos/final-logo.png"
                 alt="Şirinevler Final Dershanesi"
                 width={200}
                 height={200}

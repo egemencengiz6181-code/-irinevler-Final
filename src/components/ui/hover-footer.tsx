@@ -130,7 +130,7 @@ export default function HoverFooter() {
           <div className="space-y-6">
             <Link href="/" className="inline-block pointer-events-auto">
               <Image
-                src="/logos/final%20logo%20png.png"
+                src="/logos/final-logo.png"
                 alt="Şirinevler Final Dershanesi"
                 width={180}
                 height={180}

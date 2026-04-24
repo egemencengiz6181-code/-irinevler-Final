@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: '/logos/final%20logo%20png.png',
+    icon: '/logos/final-logo.png',
   },
   openGraph: {
     type: 'website',

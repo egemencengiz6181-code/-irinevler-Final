@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="space-y-8 col-span-1 lg:col-span-1">
             <Link href="/" className="inline-block">
               <Image 
-                src="/logos/final%20logo%20png.png" 
+                src="/logos/final-logo.png" 
                 alt="Şirinevler Final Dershanesi" 
                 width={200} 
                 height={200} 
